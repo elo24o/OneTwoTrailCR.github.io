@@ -1,3 +1,15 @@
 {
-    "key": "value"
+    "places": [
+    {
+      "id": "sss1",
+      "name": "Ciudad Quesada",
+      "latitude" : 10.3290165,
+      "length" : -84.4410223
+    },
+    {
+      "id": "7114",
+      "name": "Sucre",
+      "latitude" : 10.2812244,
+      "length" : -84.4330001
+    },
 }
