@@ -1,16 +1,29 @@
 {
-    "places": [
-    {
-      "id": "sss1",
-      "name": "Ciudad Quesada",
-      "latitude" : 10.3290165,
-      "length" : -84.4410223
-    },
-    {
-      "id": "7114",
-      "name": "Sucre",
-      "latitude" : 10.2812244,
-      "length" : -84.4330001
-    }
-    ]
+   "Ciudad Quesada", 
+    "San Martin",
+    "Gamonales",
+    "Barrio los Angeles",
+    "Ascencion",
+    "Diria",
+    "Escalante",
+    "Filmora",
+    "Guante",
+    "Hilo",
+    "Iltiki",
+    "Jurez",
+    "Kevin",
+    "Legolas",
+    "Manolo",
+    "Nicola",
+    "Opal Palace",
+    "Puertos",
+    "Quepos",
+    "Residencias",
+    "Transporte",
+    "Universidad",
+    "Vacilón",
+    "Wings",
+    "Xinia",
+    "Yeyo",
+    "Zamba"
 }
