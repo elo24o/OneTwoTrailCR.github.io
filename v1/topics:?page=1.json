@@ -1,0 +1,34 @@
+{
+  "topics": [
+    {
+      "id": "1",
+      "name": "Nature",
+      "image": "https://onetwotrailcr.github.io/v1/img/img1.jpg"
+    },
+    {
+      "id": "2",
+      "name": "Mountain",
+      "image": "https://onetwotrailcr.github.io/v1/img/img2.jpg"
+    },
+    {
+      "id": "3",
+      "name": "Beaches",
+      "image": "https://onetwotrailcr.github.io/v1/img/img3.jpg"
+    },
+    {
+      "id": "4",
+      "name": "Volunteering",
+      "image": "https://onetwotrailcr.github.io/v1/img/img4.jpg"
+    },
+    {
+      "id": "5",
+      "name": "Coffee",
+      "image": "https://onetwotrailcr.github.io/v1/img/img5.jpg"
+    },
+    {
+      "id": "6",
+      "name": "Gastronomy",
+      "image": "https://onetwotrailcr.github.io/v1/img/img6.jpg"
+    }
+  ]
+}
