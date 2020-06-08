@@ -1,12 +1,19 @@
 {
   "data":[
-  {
+{
+  "id":"omfsokdm012",
   "name":"Ciudad Quesada",
   "province": "Alajuela",
   "canton": "San Carlos",
   "img": "https://2.bp.blogspot.com/-he7gyDcaGdU/WFsfPqaiS9I/AAAAAAAAFzw/pqkGr5OCYikIA-Fsd_C2-FdoKTxVtx5zQCKgB/s1600/IMG_20161221_141133905.jpg",
   "latitude": 200.00,
-  "longitude":200.00
+  "longitude":200.00,
+  "nearby":
+      {
+     "id_1":"naoasodasd909",
+     "id_2":"ojnsdpgsd-0a",
+     "id_3":"oasidgja0sdgadg09"
+      }
   },
   
   {
