@@ -9,11 +9,11 @@
   "latitude": 200.00,
   "longitude":200.00,
   "nearby":
-      {
-     "id_1":"naoasodasd909",
-     "id_2":"ojnsdpgsd-0a",
-     "id_3":"oasidgja0sdgadg09"
-      }
+      [
+     "naoasodasd909",
+    "ojnsdpgsd-0a",
+    "oasidgja0sdgadg09"
+      ]
   },
   
   {
