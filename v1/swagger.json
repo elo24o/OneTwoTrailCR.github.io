@@ -1448,7 +1448,7 @@
                 }
             },
             "example": {
-                "emial": "email@email.com"
+                "email": "email@example.com"
             }
         },
         "UpdatePasswordPayload": {
@@ -1538,7 +1538,7 @@
             "example": {
                 "id": "id",
                 "displayName": "Name",
-                "emial": "example@example.com",
+                "email": "example@example.com",
                 "phoneNumber": "+50688888888",
                 "countryCode": "CR"
             }
@@ -2425,7 +2425,7 @@
             "required": [
                 "abuse",
                 "affected_value",
-                "hiygiene",
+                "hygiene",
                 "other",
                 "personal"
             ],
@@ -2445,9 +2445,6 @@
                 "scam": {
                     "type": "boolean"
                 },
-                "hiygiene": {
-                    "type": "boolean"
-                },
                 "personal": {
                     "type": "boolean"
                 },
@@ -2460,6 +2457,9 @@
                 "id": {
                     "description": "",
                     "type": "integer"
+                },
+                "hygiene": {
+                    "type": "boolean"
                 }
             },
             "example": {
@@ -2467,7 +2467,7 @@
                 "affected_value": "LOW",
                 "abuse": true,
                 "scam": false,
-                "hiygiene": false,
+                "hygiene": false,
                 "personal": true,
                 "other": false,
                 "comment": "Comment"
@@ -2639,7 +2639,7 @@
                 }
             },
             "example": {
-                "slectedTopics": [
+                "selectedTopics": [
                     0,
                     1
                 ]
