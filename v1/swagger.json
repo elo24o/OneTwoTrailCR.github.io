@@ -1438,11 +1438,11 @@
             "title": "Root Type for ForgotPasswordPayload",
             "description": "Forgor sassword payload",
             "required": [
-                "emial"
+                "email"
             ],
             "type": "object",
             "properties": {
-                "emial": {
+                "email": {
                     "description": "Email",
                     "type": "string"
                 }
@@ -1520,12 +1520,9 @@
             "type": "object",
             "properties": {
                 "id": {
-                    "type": "string"
+                    "type": "integer"
                 },
                 "displayName": {
-                    "type": "string"
-                },
-                "emial": {
                     "type": "string"
                 },
                 "phoneNumber": {
@@ -1533,10 +1530,17 @@
                 },
                 "countryCode": {
                     "type": "string"
+                },
+                "email": {
+                    "type": "string"
+                },
+                "profileImage": {
+                    "description": "User profile image",
+                    "type": "string"
                 }
             },
             "example": {
-                "id": "id",
+                "id": 0,
                 "displayName": "Name",
                 "email": "example@example.com",
                 "phoneNumber": "+50688888888",
@@ -2626,11 +2630,11 @@
             "title": "Root Type for UpdateUserTopicsPayload",
             "description": "Update user topics",
             "required": [
-                "slectedTopics"
+                "selectedTopics"
             ],
             "type": "object",
             "properties": {
-                "slectedTopics": {
+                "selectedTopics": {
                     "type": "array",
                     "items": {
                         "format": "int32",
