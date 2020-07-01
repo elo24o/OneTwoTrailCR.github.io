@@ -1,0 +1,114 @@
+{
+    "topicsExperiences": [
+        {
+            "pagination": {
+                "resultsPerPage":
+                0,
+                "nextPageToken":
+                "string"
+            },
+            "data": {
+                "entries": [
+                    {
+                        "id":
+                        0,
+                        "name":
+                        "string",
+                        "topImage":
+                        "string",
+                        "images": [
+                            "string"
+                        ],
+                        "lat":
+                        0,
+                        "lng":
+                        0,
+                        "address":
+                        "string"
+                    }
+                ],
+                "pagination": {
+                    "resultsPerPage":
+                    0,
+                    "nextPageToken":
+                    "string"
+                }
+            }
+        }
+    ],
+    "featuredTrails": {
+        "entries": [
+            {
+                "images": [
+                    "https://picsum.photos/id/10/200/300",
+                    "https://picsum.photos/id/1016/200/300",
+                    "https://picsum.photos/id/1018/200/300"
+                ],
+                "name":
+                "Zona Norte",
+                "id":
+                0,
+                "status":
+                "OPEN"
+            }, 
+            {
+                "images": [
+                    "https://picsum.photos/id/1019/200/300",
+                    "https://picsum.photos/id/1022/200/300",
+                    "https://picsum.photos/id/1021/200/300",
+                ],
+                "name":
+                "Valle Central",
+                "id":
+                1,
+                "status":
+                "OPEN"
+            }, 
+            {
+                "images": [
+                    "https://picsum.photos/id/1023/200/300",
+                    "https://picsum.photos/id/1039/200/300",
+                    "https://picsum.photos/id/1040/200/300",
+                ],
+                "name":
+                "Vertiente del Caribe",
+                "id":
+                2,
+                "status":
+                "OPEN"
+            }, 
+            {
+                "images": [
+                    "https://picsum.photos/id/1041/200/300",
+                    "https://picsum.photos/id/1043/200/300",
+                    "https://picsum.photos/id/1050/200/300",
+                ],
+                "name":
+                "Pacífico Central",
+                "id":
+                3,
+                "status":
+                "OPEN"
+            }, 
+            {
+                "images": [
+                    "https://picsum.photos/id/1069/200/300",
+                    "https://picsum.photos/id/1080/200/300",
+                    "https://picsum.photos/id/110/200/300",
+                ],
+                "name":
+                "Pacífico Sur",
+                "id":
+                4,
+                "status":
+                "OPEN"
+            }
+        ],
+        "pagination": {
+            "resultsPerPage":
+            5,
+            "nextPageToken":
+            "A1B2C3D4E5"
+        }
+    }
+}

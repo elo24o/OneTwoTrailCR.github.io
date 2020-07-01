@@ -1,0 +1,54 @@
+{
+	"name": "Valle Central",
+	"authorId": 1,
+	"colaborators": [ "friend3@gmail.com", "friend4@ymail.com" ],
+	"experiences": {
+		"entries": [
+			{
+				"id": 3,
+				"name": "Braulio Carrillo",
+				"topImage": "https://picsum.photos/id/1019/200/300",
+				"images": [
+					"https://picsum.photos/id/18/200/300",
+					"https://picsum.photos/id/189/200/300",
+					"https://picsum.photos/id/191/200/300"
+				],
+				"lat": 115,
+				"lng": 121,
+				"address": "Parque Nacional, Braulio Carrillo"
+			},
+			{
+				"id": 4,
+				"name": "Cahuita",
+				"topImage": "https://picsum.photos/id/1021/200/300",
+				"images": [
+					"https://picsum.photos/id/193/200/300",
+					"https://picsum.photos/id/202/200/300",
+					"https://picsum.photos/id/2016/200/300"
+				],
+				"lat": 120,
+				"lng": 116,
+				"address": "Parque Nacional, Cahuita"
+			},
+			{
+				"id": 5,
+				"name": "Carara",
+				"topImage": "https://picsum.photos/id/1022/200/300",
+				"images": [
+					"https://picsum.photos/id/271/200/300",
+					"https://picsum.photos/id/274/200/300",
+					"https://picsum.photos/id/278/200/300"
+				],
+				"lat": 110,
+				"lng": 114,
+				"address": "Parque Nacional, Carara"
+			}
+		],
+		"pagination": {
+			"resultsPerPage": 0,
+			"nextPageToken": "string"
+		}
+	},
+	"description": "Cordillera volcánica central",
+	"status": "OPEN"
+}
