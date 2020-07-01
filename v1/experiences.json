@@ -1,0 +1,203 @@
+{
+	"entries": [
+		{
+			"id": 0,
+			"name": "La Amistad",
+			"topImage": "https://picsum.photos/id/10/200/300",
+			"images": [
+				"https://picsum.photos/id/110/200/300",
+				"https://picsum.photos/id/120/200/300",
+				"https://picsum.photos/id/127/200/300"
+			],
+			"lat": 15,
+			"lng": 21,
+			"address": "Parque Nacional, La Amistad"
+		},
+		{
+			"id": 1,
+			"name": "Corcovado",
+			"topImage": "https://picsum.photos/id/1016/200/300",
+			"images": [
+				"https://picsum.photos/id/132/200/300",
+				"https://picsum.photos/id/142/200/300",
+				"https://picsum.photos/id/15/200/300"
+			],
+			"lat": 20,
+			"lng": 16,
+			"address": "Parque Nacional, Corcovado"
+		},
+		{
+			"id": 2,
+			"name": "Barra Honda",
+			"topImage": "https://picsum.photos/id/1018/200/300",
+			"images": [
+				"https://picsum.photos/id/161/200/300",
+				"https://picsum.photos/id/162/200/300",
+				"https://picsum.photos/id/164/200/300"
+			],
+			"lat": 10,
+			"lng": 14,
+			"address": "Parque Nacional, Barra Honda"
+		},
+		{
+			"id": 3,
+			"name": "Braulio Carrillo",
+			"topImage": "https://picsum.photos/id/1019/200/300",
+			"images": [
+				"https://picsum.photos/id/18/200/300",
+				"https://picsum.photos/id/189/200/300",
+				"https://picsum.photos/id/191/200/300"
+			],
+			"lat": 115,
+			"lng": 121,
+			"address": "Parque Nacional, Braulio Carrillo"
+		},
+		{
+			"id": 4,
+			"name": "Cahuita",
+			"topImage": "https://picsum.photos/id/1021/200/300",
+			"images": [
+				"https://picsum.photos/id/193/200/300",
+				"https://picsum.photos/id/202/200/300",
+				"https://picsum.photos/id/2016/200/300"
+			],
+			"lat": 120,
+			"lng": 116,
+			"address": "Parque Nacional, Cahuita"
+		},
+		{
+			"id": 5,
+			"name": "Carara",
+			"topImage": "https://picsum.photos/id/1022/200/300",
+			"images": [
+				"https://picsum.photos/id/271/200/300",
+				"https://picsum.photos/id/274/200/300",
+				"https://picsum.photos/id/278/200/300"
+			],
+			"lat": 110,
+			"lng": 114,
+			"address": "Parque Nacional, Carara"
+		},
+		{
+			"id": 6,
+			"name": "Chirripó",
+			"topImage": "https://picsum.photos/id/123/200/300",
+			"images": [
+				"https://picsum.photos/id/19/200/300",
+				"https://picsum.photos/id/190/200/300",
+				"https://picsum.photos/id/192/200/300"
+			],
+			"lat": 30,
+			"lng": 11,
+			"address": "Parque Nacional, Chirripó"
+		},
+		{
+			"id": 7,
+			"name": "Isla del Coco",
+			"topImage": "https://picsum.photos/id/139/200/300",
+			"images": [
+				"https://picsum.photos/id/110/200/300",
+				"https://picsum.photos/id/1041/200/300",
+				"https://picsum.photos/id/120/200/300"
+			],
+			"lat": 20,
+			"lng": 11,
+			"address": "Parque Nacional, Isla del Coco"
+		},
+		{
+			"id": 8,
+			"name": "Marino Ballena",
+			"topImage": "https://picsum.photos/id/140/200/300",
+			"images": [
+				"https://picsum.photos/id/15/200/300",
+				"https://picsum.photos/id/142/200/300",
+				"https://picsum.photos/id/1050/200/300"
+			],
+			"lat": 10,
+			"lng": 24,
+			"address": "Parque Nacional, Marino Ballena"
+		},
+		{
+			"id": 9,
+			"name": "Las Baulas",
+			"topImage": "https://picsum.photos/id/1041/200/300",
+			"images": [
+				"https://picsum.photos/id/21/200/300",
+				"https://picsum.photos/id/191/200/300",
+				"https://picsum.photos/id/193/200/300"
+			],
+			"lat": 31,
+			"lng": 12,
+			"address": "Parque Nacional, Las Baulas"
+		},
+		{
+			"id": 10,
+			"name": "Palo Verde",
+			"topImage": "https://picsum.photos/id/1043/200/300",
+			"images": [
+				"https://picsum.photos/id/111/200/300",
+				"https://picsum.photos/id/1042/200/300",
+				"https://picsum.photos/id/121/200/300"
+			],
+			"lat": 21,
+			"lng": 12,
+			"address": "Parque Nacional, Palo Verde"
+		},
+		{
+			"id": 11,
+			"name": "Rincón de la vieja",
+			"topImage": "https://picsum.photos/id/1050/200/300",
+			"images": [
+				"https://picsum.photos/id/16/200/300",
+				"https://picsum.photos/id/143/200/300",
+				"https://picsum.photos/id/1051/200/300"
+			],
+			"lat": 11,
+			"lng": 25,
+			"address": "Parque Nacional, Rincón de la vieja"
+		},
+		{
+			"id": 12,
+			"name": "Santa Rosa",
+			"topImage": "https://picsum.photos/id/1069/200/300",
+			"images": [
+				"https://picsum.photos/id/122/200/300",
+				"https://picsum.photos/id/292/200/300",
+				"https://picsum.photos/id/294/200/300"
+			],
+			"lat": 36,
+			"lng": 13,
+			"address": "Parque Nacional, Santa Rosa"
+		},
+		{
+			"id": 13,
+			"name": "Tapantí",
+			"topImage": "https://picsum.photos/id/1080/200/300",
+			"images": [
+				"https://picsum.photos/id/112/200/300",
+				"https://picsum.photos/id/1043/200/300",
+				"https://picsum.photos/id/122/200/300"
+			],
+			"lat": 22,
+			"lng": 14,
+			"address": "Parque Nacional, Tapantí"
+		},
+		{
+			"id": 14,
+			"name": "Volcán Arenal",
+			"topImage": "https://picsum.photos/id/110/200/300",
+			"images": [
+				"https://picsum.photos/id/17/200/300",
+				"https://picsum.photos/id/144/200/300",
+				"https://picsum.photos/id/1052/200/300"
+			],
+			"lat": 12,
+			"lng": 26,
+			"address": "Parque Nacional, Volcán Arenal"
+		}
+	],
+	"pagination": {
+		"resultsPerPage": 0,
+		"nextPageToken": "string"
+	}
+}

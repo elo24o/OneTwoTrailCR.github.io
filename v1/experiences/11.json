@@ -1,0 +1,24 @@
+{
+	"id": 11,
+	"name": "Rincón de la Vieja",
+	"region": "Norte",
+	"locality": "Alajuela",
+	"country": "Costa Rica",
+	"address-line1": "Canton 2",
+	"address-line2": "Distrito 3",
+	"address-line3": "Barrio 4",
+	"address-line4": "Zona 5",
+	"likes_count": 15,
+	"starred": true,
+	"detail": "Detalles de Rincón de la Vieja",
+	"image":  "https://picsum.photos/id/718/200/300",
+    "images": [
+        "https://picsum.photos/id/761/200/300",
+        "https://picsum.photos/id/762/200/300",
+        "https://picsum.photos/id/764/200/300"
+    ],
+	"latitude": 10,
+	"longitude": 14,
+	"nearby_ids": [ 1, 2, 3 ],
+	"related_ids": [ 4, 5, 6 ]
+}

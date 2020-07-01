@@ -1,0 +1,24 @@
+{
+	"id": 14,
+	"name": "Volcán Arenal",
+	"region": "Norte",
+	"locality": "Alajuela",
+	"country": "Costa Rica",
+	"address-line1": "Canton 2",
+	"address-line2": "Distrito 3",
+	"address-line3": "Barrio 4",
+	"address-line4": "Zona 5",
+	"likes_count": 15,
+	"starred": true,
+	"detail": "Detalles de Volcán Arenal",
+	"image":  "https://picsum.photos/id/418/200/300",
+    "images": [
+        "https://picsum.photos/id/141/200/300",
+        "https://picsum.photos/id/412/200/300",
+        "https://picsum.photos/id/414/200/300"
+    ],
+	"latitude": 10,
+	"longitude": 14,
+	"nearby_ids": [ 1, 2, 3 ],
+	"related_ids": [ 4, 5, 6 ]
+}
