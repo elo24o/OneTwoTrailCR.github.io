@@ -1,0 +1,54 @@
+{
+	"name": "Pacífico Central",
+	"authorId": 3,
+	"colaborators": [ "friend7@gmail.com", "friend8@ymail.com" ],
+	"experiences": {
+		"entries": [
+			{
+				"id": 9,
+				"name": "Las Baulas",
+				"topImage": "https://picsum.photos/id/1041/200/300",
+				"images": [
+					"https://picsum.photos/id/21/200/300",
+					"https://picsum.photos/id/191/200/300",
+					"https://picsum.photos/id/193/200/300"
+				],
+				"lat": 31,
+				"lng": 12,
+				"address": "Parque Nacional, Las Baulas"
+			},
+			{
+				"id": 10,
+				"name": "Palo Verde",
+				"topImage": "https://picsum.photos/id/1043/200/300",
+				"images": [
+					"https://picsum.photos/id/111/200/300",
+					"https://picsum.photos/id/1042/200/300",
+					"https://picsum.photos/id/121/200/300"
+				],
+				"lat": 21,
+				"lng": 12,
+				"address": "Parque Nacional, Palo Verde"
+			},
+			{
+				"id": 11,
+				"name": "Rincón de la vieja",
+				"topImage": "https://picsum.photos/id/1050/200/300",
+				"images": [
+					"https://picsum.photos/id/16/200/300",
+					"https://picsum.photos/id/143/200/300",
+					"https://picsum.photos/id/1051/200/300"
+				],
+				"lat": 11,
+				"lng": 25,
+				"address": "Parque Nacional, Rincón de la vieja"
+			}
+		],
+		"pagination": {
+			"resultsPerPage": 0,
+			"nextPageToken": "string"
+		}
+	},
+	"description": "Provincia de puntarenas, desde el río tempisque a río frío",
+	"status": "OPEN"
+}

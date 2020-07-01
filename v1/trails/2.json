@@ -1,0 +1,54 @@
+{
+	"name": "Vertiente del Caribe",
+	"authorId": 2,
+	"colaborators": [ "friend5@gmail.com", "friend6@ymail.com" ],
+	"experiences": {
+		"entries": [
+			{
+				"id": 6,
+				"name": "Chirripó",
+				"topImage": "https://picsum.photos/id/123/200/300",
+				"images": [
+					"https://picsum.photos/id/19/200/300",
+					"https://picsum.photos/id/190/200/300",
+					"https://picsum.photos/id/192/200/300"
+				],
+				"lat": 30,
+				"lng": 11,
+				"address": "Parque Nacional, Chirripó"
+			},
+			{
+				"id": 7,
+				"name": "Isla del Coco",
+				"topImage": "https://picsum.photos/id/139/200/300",
+				"images": [
+					"https://picsum.photos/id/110/200/300",
+					"https://picsum.photos/id/1041/200/300",
+					"https://picsum.photos/id/120/200/300"
+				],
+				"lat": 20,
+				"lng": 11,
+				"address": "Parque Nacional, Isla del Coco"
+			},
+			{
+				"id": 8,
+				"name": "Marino Ballena",
+				"topImage": "https://picsum.photos/id/140/200/300",
+				"images": [
+					"https://picsum.photos/id/15/200/300",
+					"https://picsum.photos/id/142/200/300",
+					"https://picsum.photos/id/1050/200/300"
+				],
+				"lat": 10,
+				"lng": 24,
+				"address": "Parque Nacional, Marino Ballena"
+			}
+		],
+		"pagination": {
+			"resultsPerPage": 0,
+			"nextPageToken": "string"
+		}
+	},
+	"description": "Costa caribe y provincia de Limón",
+	"status": "OPEN"
+}
