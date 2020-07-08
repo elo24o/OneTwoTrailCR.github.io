@@ -1,88 +1,308 @@
 {
-  "data":[
-{
-  "id":"omfsokdm012",
-  "name":"Ciudad Quesada",
-  "province": "Alajuela",
-  "canton": "San Carlos",
-  "img": "https://2.bp.blogspot.com/-he7gyDcaGdU/WFsfPqaiS9I/AAAAAAAAFzw/pqkGr5OCYikIA-Fsd_C2-FdoKTxVtx5zQCKgB/s1600/IMG_20161221_141133905.jpg",
-  "latitude": 10.3238096,
-  "longitude":-84.4271393,
-  "type": "Ciudad",
-  "nearby":
-      [
-     "naoasodasd909",
-    "ojnsdpgsd-0a",
-    "oasidgja0sdgadg09"
+  "data": [
+    {
+      "id": 0,
+      "name": "Ciudad Quesada",
+      "region": "Huetar Norte",
+      "locality": "San Carlos",
+      "country": "Costa Rica",
+      "address-line1": "string",
+      "address-line2": "string",
+      "address-line3": "string",
+      "address-line4": "string",
+      "likes_count": 32,
+      "starred": false,
+      "detail": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nibh diam, auctor sit amet lobortis non, elementum et dolor. Nullam blandit fermentum congue. Nulla ornare ultricies nisi, at lobortis ante venenatis id. Sed dui magna, aliquam vitae feugiat vehicula, feugiat sed sapien. Morbi ante massa, dapibus vitae magna a, venenatis pretium urna. Quisque quis massa gravida, feugiat risus maximus, mollis justo. Sed sollicitudin hendrerit laoreet. Praesent eu nunc et ex facilisis ullamcorper. Nunc a maximus justo, eget sollicitudin ipsum. Sed posuere, quam in egestas sagittis, nibh enim dignissim turpis, a blandit tellus risus aliquet purus. Nulla libero neque, bibendum quis lacus et, imperdiet aliquam erat. Suspendisse blandit molestie purus consequat aliquam. Nulla eu odio neque. Curabitur consectetur velit orci.",
+      "image": "https://picsum.photos/200/300",
+      "latitude": 10.3238096,
+      "longitude": -84.4271393,
+      "nearby_ids": [
+        1,
+        2,
+        3,
+        4,
+        5
       ],
-       "related":
-      [
-     "34tdgdsf45645",
-    "qr524524ter-0a",
-    "oasidgjasdfsdfasdfa0sdgadg09"
+      "related_ids": [
+        1,
+        2,
+        3,
+        4,
+        5
       ],
-      "images":[
-        "https://upload.wikimedia.org/wikipedia/commons/0/0e/Pavilion_of_Ciudad_Quesada%2C_Costa_Rica_park.jpg",
-       "https://khms1.googleapis.com/kh?v=865&hl=en-US&x=4349&y=7719&z=14",
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTn9l50PRnci2bnQBLQqt3dgscfWf3QcKQ8bDdx6MZdF1m6w1j-&usqp=CAU",
-        "https://elperiodicocr.com/wp-content/uploads/2019/07/Feria-del-Agricultor-INDER-1.jpeg",
-        "https://upload.wikimedia.org/wikipedia/commons/f/f8/Cathedral_of_St._Charles_Borromeo_in_Ciudad_Quesada.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/0/0e/Pavilion_of_Ciudad_Quesada%2C_Costa_Rica_park.jpg",
-       "https://khms1.googleapis.com/kh?v=865&hl=en-US&x=4349&y=7719&z=14",
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTn9l50PRnci2bnQBLQqt3dgscfWf3QcKQ8bDdx6MZdF1m6w1j-&usqp=CAU",
-        "https://elperiodicocr.com/wp-content/uploads/2019/07/Feria-del-Agricultor-INDER-1.jpeg",
-        "https://upload.wikimedia.org/wikipedia/commons/f/f8/Cathedral_of_St._Charles_Borromeo_in_Ciudad_Quesada.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/0/0e/Pavilion_of_Ciudad_Quesada%2C_Costa_Rica_park.jpg",
-       "https://khms1.googleapis.com/kh?v=865&hl=en-US&x=4349&y=7719&z=14",
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTn9l50PRnci2bnQBLQqt3dgscfWf3QcKQ8bDdx6MZdF1m6w1j-&usqp=CAU",
-        "https://elperiodicocr.com/wp-content/uploads/2019/07/Feria-del-Agricultor-INDER-1.jpeg",
-        "https://upload.wikimedia.org/wikipedia/commons/f/f8/Cathedral_of_St._Charles_Borromeo_in_Ciudad_Quesada.jpg",
-        "https://elperiodicocr.com/wp-content/uploads/2019/07/Feria-del-Agricultor-INDER-1.jpeg",
-        "https://elperiodicocr.com/wp-content/uploads/2019/07/Feria-del-Agricultor-INDER-1.jpeg"
-        ]
-  },
-  
-  {
-  "name":"Ciudad Quesada2",
-  "province": "Alajuela",
-  "canton": "San Carlos",
-  "img": "https://www.costaricatalk.com/images/CONTENIDO-MAIN/Cesar/San_Carlos/vaca-en-cq.jpg"
-  },
+      "images": [
+        "https://picsum.photos/200/300",
+        "https://picsum.photos/200/300",
+        "https://picsum.photos/200/300",
+        "https://picsum.photos/200/300",
+        "https://picsum.photos/200/300"
+      ]
+    },
     {
-  "name":"Ciudad Quesada2",
-  "province": "Alajuela",
-  "canton": "San Carlos",
-  "img": "https://www.costaricatalk.com/images/CONTENIDO-MAIN/Cesar/San_Carlos/vaca-en-cq.jpg"
-  },
+      "id": 0,
+      "name": "Ciudad Quesada",
+      "region": "Huetar Norte",
+      "locality": "San Carlos",
+      "country": "Costa Rica",
+      "address-line1": "string",
+      "address-line2": "string",
+      "address-line3": "string",
+      "address-line4": "string",
+      "likes_count": 32,
+      "starred": false,
+      "detail": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nibh diam, auctor sit amet lobortis non, elementum et dolor. Nullam blandit fermentum congue. Nulla ornare ultricies nisi, at lobortis ante venenatis id. Sed dui magna, aliquam vitae feugiat vehicula, feugiat sed sapien. Morbi ante massa, dapibus vitae magna a, venenatis pretium urna. Quisque quis massa gravida, feugiat risus maximus, mollis justo. Sed sollicitudin hendrerit laoreet. Praesent eu nunc et ex facilisis ullamcorper. Nunc a maximus justo, eget sollicitudin ipsum. Sed posuere, quam in egestas sagittis, nibh enim dignissim turpis, a blandit tellus risus aliquet purus. Nulla libero neque, bibendum quis lacus et, imperdiet aliquam erat. Suspendisse blandit molestie purus consequat aliquam. Nulla eu odio neque. Curabitur consectetur velit orci.",
+      "image": "https://picsum.photos/200/300",
+      "latitude": 10.3238096,
+      "longitude": -84.4271393,
+      "nearby_ids": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "related_ids": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "images": [
+        "https://picsum.photos/200/300",
+        "https://picsum.photos/200/300",
+        "https://picsum.photos/200/300",
+        "https://picsum.photos/200/300",
+        "https://picsum.photos/200/300"
+      ]
+    },
     {
-  "name":"Ciudad Quesada3",
-  "province": "Alajuela",
-  "canton": "San Carlos",
-  "img": "https://www.costaricatalk.com/images/CONTENIDO-MAIN/Cesar/San_Carlos/vaca-en-cq.jpg"
-  },
+      "id": 0,
+      "name": "Ciudad Quesada",
+      "region": "Huetar Norte",
+      "locality": "San Carlos",
+      "country": "Costa Rica",
+      "address-line1": "string",
+      "address-line2": "string",
+      "address-line3": "string",
+      "address-line4": "string",
+      "likes_count": 32,
+      "starred": false,
+      "detail": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nibh diam, auctor sit amet lobortis non, elementum et dolor. Nullam blandit fermentum congue. Nulla ornare ultricies nisi, at lobortis ante venenatis id. Sed dui magna, aliquam vitae feugiat vehicula, feugiat sed sapien. Morbi ante massa, dapibus vitae magna a, venenatis pretium urna. Quisque quis massa gravida, feugiat risus maximus, mollis justo. Sed sollicitudin hendrerit laoreet. Praesent eu nunc et ex facilisis ullamcorper. Nunc a maximus justo, eget sollicitudin ipsum. Sed posuere, quam in egestas sagittis, nibh enim dignissim turpis, a blandit tellus risus aliquet purus. Nulla libero neque, bibendum quis lacus et, imperdiet aliquam erat. Suspendisse blandit molestie purus consequat aliquam. Nulla eu odio neque. Curabitur consectetur velit orci.",
+      "image": "https://picsum.photos/200/300",
+      "latitude": 10.3238096,
+      "longitude": -84.4271393,
+      "nearby_ids": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "related_ids": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "images": [
+        "https://picsum.photos/200/300",
+        "https://picsum.photos/200/300",
+        "https://picsum.photos/200/300",
+        "https://picsum.photos/200/300",
+        "https://picsum.photos/200/300"
+      ]
+    },
     {
-  "name":"Ciudad Quesada4",
-  "province": "Alajuela",
-  "canton": "San Carlos",
-  "img": "https://www.costaricatalk.com/images/CONTENIDO-MAIN/Cesar/San_Carlos/vaca-en-cq.jpg"
-  },
+      "id": 0,
+      "name": "Ciudad Quesada",
+      "region": "Huetar Norte",
+      "locality": "San Carlos",
+      "country": "Costa Rica",
+      "address-line1": "string",
+      "address-line2": "string",
+      "address-line3": "string",
+      "address-line4": "string",
+      "likes_count": 32,
+      "starred": false,
+      "detail": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nibh diam, auctor sit amet lobortis non, elementum et dolor. Nullam blandit fermentum congue. Nulla ornare ultricies nisi, at lobortis ante venenatis id. Sed dui magna, aliquam vitae feugiat vehicula, feugiat sed sapien. Morbi ante massa, dapibus vitae magna a, venenatis pretium urna. Quisque quis massa gravida, feugiat risus maximus, mollis justo. Sed sollicitudin hendrerit laoreet. Praesent eu nunc et ex facilisis ullamcorper. Nunc a maximus justo, eget sollicitudin ipsum. Sed posuere, quam in egestas sagittis, nibh enim dignissim turpis, a blandit tellus risus aliquet purus. Nulla libero neque, bibendum quis lacus et, imperdiet aliquam erat. Suspendisse blandit molestie purus consequat aliquam. Nulla eu odio neque. Curabitur consectetur velit orci.",
+      "image": "https://picsum.photos/200/300",
+      "latitude": 10.3238096,
+      "longitude": -84.4271393,
+      "nearby_ids": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "related_ids": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "images": [
+        "https://picsum.photos/200/300",
+        "https://picsum.photos/200/300",
+        "https://picsum.photos/200/300",
+        "https://picsum.photos/200/300",
+        "https://picsum.photos/200/300"
+      ]
+    },
     {
-  "name":"Ciudad Quesada5",
-  "province": "Alajuela",
-  "canton": "San Carlos",
-  "img": "https://www.costaricatalk.com/images/CONTENIDO-MAIN/Cesar/San_Carlos/vaca-en-cq.jpg"
-  },
+      "id": 0,
+      "name": "Ciudad Quesada",
+      "region": "Huetar Norte",
+      "locality": "San Carlos",
+      "country": "Costa Rica",
+      "address-line1": "string",
+      "address-line2": "string",
+      "address-line3": "string",
+      "address-line4": "string",
+      "likes_count": 32,
+      "starred": false,
+      "detail": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nibh diam, auctor sit amet lobortis non, elementum et dolor. Nullam blandit fermentum congue. Nulla ornare ultricies nisi, at lobortis ante venenatis id. Sed dui magna, aliquam vitae feugiat vehicula, feugiat sed sapien. Morbi ante massa, dapibus vitae magna a, venenatis pretium urna. Quisque quis massa gravida, feugiat risus maximus, mollis justo. Sed sollicitudin hendrerit laoreet. Praesent eu nunc et ex facilisis ullamcorper. Nunc a maximus justo, eget sollicitudin ipsum. Sed posuere, quam in egestas sagittis, nibh enim dignissim turpis, a blandit tellus risus aliquet purus. Nulla libero neque, bibendum quis lacus et, imperdiet aliquam erat. Suspendisse blandit molestie purus consequat aliquam. Nulla eu odio neque. Curabitur consectetur velit orci.",
+      "image": "https://picsum.photos/200/300",
+      "latitude": 10.3238096,
+      "longitude": -84.4271393,
+      "nearby_ids": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "related_ids": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "images": [
+        "https://picsum.photos/200/300",
+        "https://picsum.photos/200/300",
+        "https://picsum.photos/200/300",
+        "https://picsum.photos/200/300",
+        "https://picsum.photos/200/300"
+      ]
+    },
     {
-  "name":"Ciudad Quesada6",
-  "province": "Alajuela",
-  "canton": "San Carlos",
-  "img": "https://www.costaricatalk.com/images/CONTENIDO-MAIN/Cesar/San_Carlos/vaca-en-cq.jpg"
-  },
+      "id": 0,
+      "name": "Ciudad Quesada",
+      "region": "Huetar Norte",
+      "locality": "San Carlos",
+      "country": "Costa Rica",
+      "address-line1": "string",
+      "address-line2": "string",
+      "address-line3": "string",
+      "address-line4": "string",
+      "likes_count": 32,
+      "starred": false,
+      "detail": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nibh diam, auctor sit amet lobortis non, elementum et dolor. Nullam blandit fermentum congue. Nulla ornare ultricies nisi, at lobortis ante venenatis id. Sed dui magna, aliquam vitae feugiat vehicula, feugiat sed sapien. Morbi ante massa, dapibus vitae magna a, venenatis pretium urna. Quisque quis massa gravida, feugiat risus maximus, mollis justo. Sed sollicitudin hendrerit laoreet. Praesent eu nunc et ex facilisis ullamcorper. Nunc a maximus justo, eget sollicitudin ipsum. Sed posuere, quam in egestas sagittis, nibh enim dignissim turpis, a blandit tellus risus aliquet purus. Nulla libero neque, bibendum quis lacus et, imperdiet aliquam erat. Suspendisse blandit molestie purus consequat aliquam. Nulla eu odio neque. Curabitur consectetur velit orci.",
+      "image": "https://picsum.photos/200/300",
+      "latitude": 10.3238096,
+      "longitude": -84.4271393,
+      "nearby_ids": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "related_ids": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "images": [
+        "https://picsum.photos/200/300",
+        "https://picsum.photos/200/300",
+        "https://picsum.photos/200/300",
+        "https://picsum.photos/200/300",
+        "https://picsum.photos/200/300"
+      ]
+    },
     {
-  "name":"Ciudad Quesada7",
-  "province": "Alajuela",
-  "canton": "San Carlos",
-  "img": "https://www.costaricatalk.com/images/CONTENIDO-MAIN/Cesar/San_Carlos/vaca-en-cq.jpg"
-  }
-]
+      "id": 0,
+      "name": "Ciudad Quesada",
+      "region": "Huetar Norte",
+      "locality": "San Carlos",
+      "country": "Costa Rica",
+      "address-line1": "string",
+      "address-line2": "string",
+      "address-line3": "string",
+      "address-line4": "string",
+      "likes_count": 32,
+      "starred": false,
+      "detail": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nibh diam, auctor sit amet lobortis non, elementum et dolor. Nullam blandit fermentum congue. Nulla ornare ultricies nisi, at lobortis ante venenatis id. Sed dui magna, aliquam vitae feugiat vehicula, feugiat sed sapien. Morbi ante massa, dapibus vitae magna a, venenatis pretium urna. Quisque quis massa gravida, feugiat risus maximus, mollis justo. Sed sollicitudin hendrerit laoreet. Praesent eu nunc et ex facilisis ullamcorper. Nunc a maximus justo, eget sollicitudin ipsum. Sed posuere, quam in egestas sagittis, nibh enim dignissim turpis, a blandit tellus risus aliquet purus. Nulla libero neque, bibendum quis lacus et, imperdiet aliquam erat. Suspendisse blandit molestie purus consequat aliquam. Nulla eu odio neque. Curabitur consectetur velit orci.",
+      "image": "https://picsum.photos/200/300",
+      "latitude": 10.3238096,
+      "longitude": -84.4271393,
+      "nearby_ids": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "related_ids": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "images": [
+        "https://picsum.photos/200/300",
+        "https://picsum.photos/200/300",
+        "https://picsum.photos/200/300",
+        "https://picsum.photos/200/300",
+        "https://picsum.photos/200/300"
+      ]
+    },
+    {
+      "id": 0,
+      "name": "Ciudad Quesada",
+      "region": "Huetar Norte",
+      "locality": "San Carlos",
+      "country": "Costa Rica",
+      "address-line1": "string",
+      "address-line2": "string",
+      "address-line3": "string",
+      "address-line4": "string",
+      "likes_count": 32,
+      "starred": false,
+      "detail": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nibh diam, auctor sit amet lobortis non, elementum et dolor. Nullam blandit fermentum congue. Nulla ornare ultricies nisi, at lobortis ante venenatis id. Sed dui magna, aliquam vitae feugiat vehicula, feugiat sed sapien. Morbi ante massa, dapibus vitae magna a, venenatis pretium urna. Quisque quis massa gravida, feugiat risus maximus, mollis justo. Sed sollicitudin hendrerit laoreet. Praesent eu nunc et ex facilisis ullamcorper. Nunc a maximus justo, eget sollicitudin ipsum. Sed posuere, quam in egestas sagittis, nibh enim dignissim turpis, a blandit tellus risus aliquet purus. Nulla libero neque, bibendum quis lacus et, imperdiet aliquam erat. Suspendisse blandit molestie purus consequat aliquam. Nulla eu odio neque. Curabitur consectetur velit orci.",
+      "image": "https://picsum.photos/200/300",
+      "latitude": 10.3238096,
+      "longitude": -84.4271393,
+      "nearby_ids": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "related_ids": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "images": [
+        "https://picsum.photos/200/300",
+        "https://picsum.photos/200/300",
+        "https://picsum.photos/200/300",
+        "https://picsum.photos/200/300",
+        "https://picsum.photos/200/300"
+      ]
+    }
+  ]
 }
