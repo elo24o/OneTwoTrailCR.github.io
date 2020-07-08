@@ -7,7 +7,7 @@
 			{
 				"id": 6,
 				"name": "Chirripó",
-				"topImage": "https://picsum.photos/id/123/200/300",
+				"img": "https://picsum.photos/id/123/200/300",
 				"images": [
 					"https://picsum.photos/id/19/200/300",
 					"https://picsum.photos/id/190/200/300",
@@ -20,7 +20,7 @@
 			{
 				"id": 7,
 				"name": "Isla del Coco",
-				"topImage": "https://picsum.photos/id/139/200/300",
+				"img": "https://picsum.photos/id/139/200/300",
 				"images": [
 					"https://picsum.photos/id/110/200/300",
 					"https://picsum.photos/id/1041/200/300",
@@ -33,7 +33,7 @@
 			{
 				"id": 8,
 				"name": "Marino Ballena",
-				"topImage": "https://picsum.photos/id/140/200/300",
+				"img": "https://picsum.photos/id/140/200/300",
 				"images": [
 					"https://picsum.photos/id/15/200/300",
 					"https://picsum.photos/id/142/200/300",

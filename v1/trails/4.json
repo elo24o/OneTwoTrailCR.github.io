@@ -7,7 +7,7 @@
 			{
 				"id": 12,
 				"name": "Santa Rosa",
-				"topImage": "https://picsum.photos/id/1069/200/300",
+				"img": "https://picsum.photos/id/1069/200/300",
 				"images": [
 					"https://picsum.photos/id/122/200/300",
 					"https://picsum.photos/id/292/200/300",
@@ -20,7 +20,7 @@
 			{
 				"id": 13,
 				"name": "Tapantí",
-				"topImage": "https://picsum.photos/id/1080/200/300",
+				"img": "https://picsum.photos/id/1080/200/300",
 				"images": [
 					"https://picsum.photos/id/112/200/300",
 					"https://picsum.photos/id/1043/200/300",
@@ -33,7 +33,7 @@
 			{
 				"id": 14,
 				"name": "Volcán Arenal",
-				"topImage": "https://picsum.photos/id/110/200/300",
+				"img": "https://picsum.photos/id/110/200/300",
 				"images": [
 					"https://picsum.photos/id/17/200/300",
 					"https://picsum.photos/id/144/200/300",

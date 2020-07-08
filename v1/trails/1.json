@@ -7,7 +7,7 @@
 			{
 				"id": 3,
 				"name": "Braulio Carrillo",
-				"topImage": "https://picsum.photos/id/1019/200/300",
+				"img": "https://picsum.photos/id/1019/200/300",
 				"images": [
 					"https://picsum.photos/id/18/200/300",
 					"https://picsum.photos/id/189/200/300",
@@ -20,7 +20,7 @@
 			{
 				"id": 4,
 				"name": "Cahuita",
-				"topImage": "https://picsum.photos/id/1021/200/300",
+				"img": "https://picsum.photos/id/1021/200/300",
 				"images": [
 					"https://picsum.photos/id/193/200/300",
 					"https://picsum.photos/id/202/200/300",
@@ -33,7 +33,7 @@
 			{
 				"id": 5,
 				"name": "Carara",
-				"topImage": "https://picsum.photos/id/1022/200/300",
+				"img": "https://picsum.photos/id/1022/200/300",
 				"images": [
 					"https://picsum.photos/id/271/200/300",
 					"https://picsum.photos/id/274/200/300",

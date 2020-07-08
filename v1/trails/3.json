@@ -7,7 +7,7 @@
 			{
 				"id": 9,
 				"name": "Las Baulas",
-				"topImage": "https://picsum.photos/id/1041/200/300",
+				"img": "https://picsum.photos/id/1041/200/300",
 				"images": [
 					"https://picsum.photos/id/21/200/300",
 					"https://picsum.photos/id/191/200/300",
@@ -20,7 +20,7 @@
 			{
 				"id": 10,
 				"name": "Palo Verde",
-				"topImage": "https://picsum.photos/id/1043/200/300",
+				"img": "https://picsum.photos/id/1043/200/300",
 				"images": [
 					"https://picsum.photos/id/111/200/300",
 					"https://picsum.photos/id/1042/200/300",
@@ -33,7 +33,7 @@
 			{
 				"id": 11,
 				"name": "Rincón de la vieja",
-				"topImage": "https://picsum.photos/id/1050/200/300",
+				"img": "https://picsum.photos/id/1050/200/300",
 				"images": [
 					"https://picsum.photos/id/16/200/300",
 					"https://picsum.photos/id/143/200/300",
