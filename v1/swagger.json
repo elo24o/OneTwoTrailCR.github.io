@@ -325,29 +325,6 @@
                 "summary": "Forgot password requested"
             }
         },
-        "/discovery": {
-            "get": {
-                "responses": {
-                    "200": {
-                        "description": "Discovery result data",
-                        "schema": {
-                            "$ref": "#/definitions/DiscoveryResponse"
-                        }
-                    },
-                    "401": {
-                        "$ref": "#/responses/unauthorized"
-                    }
-                },
-                "security": [
-                    {
-                        "Bearer": [
-                        ]
-                    }
-                ],
-                "summary": "Get discovery section data",
-                "description": "Get discovery data to render app discovery section"
-            }
-        },
         "/account/profile": {
             "get": {
                 "responses": {
@@ -743,43 +720,6 @@
                 }
             ]
         },
-        "/discovery/topics/{id}": {
-            "get": {
-                "parameters": [
-                    {
-                        "name": "token",
-                        "description": "pagination token",
-                        "in": "query",
-                        "required": false,
-                        "type": "string"
-                    },
-                    {
-                        "name": "maxResults",
-                        "description": "Pagination max results",
-                        "in": "query",
-                        "type": "integer"
-                    }
-                ],
-                "responses": {
-                    "200": {
-                        "description": "Discovery topic experiences",
-                        "schema": {
-                            "$ref": "#/definitions/PaginateExperiencesPart"
-                        }
-                    },
-                    "401": {
-                        "$ref": "#/responses/unauthorized"
-                    }
-                },
-                "security": [
-                    {
-                        "Bearer": [
-                        ]
-                    }
-                ],
-                "summary": "Get discovery topic experiences"
-            }
-        },
         "/experiences/{id}/report": {
             "get": {
                 "parameters": [
@@ -1018,6 +958,177 @@
                 ],
                 "summary": "Update user topics"
             }
+        },
+        "/experiences/{id}/related": {
+            "get": {
+                "parameters": [
+                    {
+                        "name": "maxResults",
+                        "description": "Pagination max results",
+                        "in": "query",
+                        "required": true,
+                        "type": "integer"
+                    },
+                    {
+                        "name": "token",
+                        "description": "Pagination Token",
+                        "in": "query",
+                        "required": true,
+                        "type": "string"
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "Paginate related experiences",
+                        "schema": {
+                            "$ref": "#/definitions/PaginateExperiencesPart"
+                        }
+                    },
+                    "401": {
+                        "$ref": "#/responses/unauthorized"
+                    }
+                },
+                "security": [
+                    {
+                        "Bearer": [
+                        ]
+                    }
+                ]
+            }
+        },
+        "/experiences/{id}/nearby": {
+            "get": {
+                "parameters": [
+                    {
+                        "name": "maxResults",
+                        "description": "Pagination max results",
+                        "in": "query",
+                        "required": true,
+                        "type": "integer"
+                    },
+                    {
+                        "name": "token",
+                        "description": "Pagination Token",
+                        "in": "query",
+                        "required": true,
+                        "type": "string"
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "Paginate related experiences",
+                        "schema": {
+                            "$ref": "#/definitions/PaginateExperiencesPart"
+                        }
+                    },
+                    "401": {
+                        "$ref": "#/responses/unauthorized"
+                    }
+                },
+                "security": [
+                    {
+                        "Bearer": [
+                        ]
+                    }
+                ]
+            }
+        },
+        "/discover": {
+            "get": {
+                "responses": {
+                    "200": {
+                        "description": "Discovery result data",
+                        "schema": {
+                            "$ref": "#/definitions/DiscoverResponse"
+                        }
+                    },
+                    "401": {
+                        "$ref": "#/responses/unauthorized"
+                    }
+                },
+                "security": [
+                    {
+                        "Bearer": [
+                        ]
+                    }
+                ],
+                "summary": "Get discovery section data",
+                "description": "Get discovery data to render app discovery section"
+            }
+        },
+        "/discover/topics/{id}": {
+            "get": {
+                "parameters": [
+                    {
+                        "name": "token",
+                        "description": "pagination token",
+                        "in": "query",
+                        "required": false,
+                        "type": "string"
+                    },
+                    {
+                        "name": "maxResults",
+                        "description": "Pagination max results",
+                        "in": "query",
+                        "type": "integer"
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "Discovery topic experiences",
+                        "schema": {
+                            "$ref": "#/definitions/PaginateExperiencesPart"
+                        }
+                    },
+                    "401": {
+                        "$ref": "#/responses/unauthorized"
+                    }
+                },
+                "security": [
+                    {
+                        "Bearer": [
+                        ]
+                    }
+                ],
+                "summary": "Get discovery topic experiences"
+            }
+        },
+        "/discover/featuredTrails": {
+            "get": {
+                "parameters": [
+                    {
+                        "name": "token",
+                        "description": "pagination token",
+                        "in": "query",
+                        "required": false,
+                        "type": "string"
+                    },
+                    {
+                        "name": "maxResults",
+                        "description": "Pagination max results",
+                        "in": "query",
+                        "type": "integer"
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "Discovery paginated featured trails",
+                        "schema": {
+                            "$ref": "#/definitions/PaginateFeaturedTrailsResponse"
+                        }
+                    },
+                    "401": {
+                        "$ref": "#/responses/unauthorized"
+                    }
+                },
+                "security": [
+                    {
+                        "Bearer": [
+                        ]
+                    }
+                ],
+                "summary": "Get discovery topic experiences"
+            }
         }
     },
     "definitions": {
@@ -1042,25 +1153,25 @@
             "title": "Root Type for AuthSuccess",
             "description": "Authentication Succesfully Response",
             "required": [
-                "select_country"
+                "selectCountry"
             ],
             "type": "object",
             "properties": {
                 "token": {
                     "type": "string"
                 },
-                "pick_topics": {
+                "pickTopics": {
                     "type": "boolean"
                 },
-                "select_country": {
+                "selectCountry": {
                     "description": "",
                     "type": "boolean"
                 }
             },
             "example": {
                 "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiaWF0IjoxNTE2MjM5MDIyfQ.SflKxwRJSMeKKF2QT4fwpMeJf36POk6yJV_adQssw5c",
-                "pick_topics": false,
-                "select_country": false
+                "pickTopics": false,
+                "selectCountry": false
             }
         },
         "AuthEmailLoginRequest": {
@@ -1157,22 +1268,6 @@
                 "country": {
                     "type": "string"
                 },
-                "address-line1": {
-                    "type": "string"
-                },
-                "address-line2": {
-                    "type": "string"
-                },
-                "address-line3": {
-                    "type": "string"
-                },
-                "address-line4": {
-                    "type": "string"
-                },
-                "likes_count": {
-                    "format": "int32",
-                    "type": "integer"
-                },
                 "starred": {
                     "type": "boolean"
                 },
@@ -1190,23 +1285,33 @@
                     "format": "int32",
                     "type": "integer"
                 },
-                "nearby_ids": {
-                    "type": "array",
-                    "items": {
-                        "type": "string"
-                    }
-                },
-                "related_ids": {
-                    "type": "array",
-                    "items": {
-                        "type": "string"
-                    }
-                },
                 "images": {
                     "type": "array",
                     "items": {
                         "type": "string"
                     }
+                },
+                "related": {
+                    "$ref": "#/definitions/PaginateExperiencesPart"
+                },
+                "nearby": {
+                    "$ref": "#/definitions/PaginateExperiencesPart"
+                },
+                "addressLine1": {
+                    "type": "string"
+                },
+                "addressLine2": {
+                    "type": "string"
+                },
+                "addressLine3": {
+                    "type": "string"
+                },
+                "addressLine4": {
+                    "type": "string"
+                },
+                "likesCount": {
+                    "format": "int32",
+                    "type": "integer"
                 }
             },
             "example": {
@@ -1215,26 +1320,76 @@
                 "region": "Puntarenas",
                 "locality": "Manuel Antonio",
                 "country": "Costa Rica",
-                "address-line1": "Address",
-                "address-line2": "Address",
-                "address-line3": "Address",
-                "address-line4": "Address",
-                "likes_count": 40,
+                "addressLine1": "Address",
+                "addressLine2": "Address",
+                "addressLine3": "Address",
+                "addressLine4": "Address",
+                "likesCount": 40,
                 "starred": false,
                 "detail": "Manuel Antonio is the most popular National Park with Ticos. It offers several kilometers of very well maintained trails",
                 "image": "https://2.bp.blogspot.com/-he7gyDcaGdU/WFsfPqaiS9I/AAAAAAAAFzw/pqkGr5OCYikIA-Fsd_C2-FdoKTxVtx5zQCKgB/s1600/IMG_20161221_141133905.jpg",
                 "latitude": 0,
                 "longitude": 0,
-                "nearby_ids": [
-                    "naoasodasd909",
-                    "ojnsdpgsd-0a",
-                    "oasidgja0sdgadg09"
-                ],
-                "related_ids": [
-                    "34tdgdsf45645",
-                    "qr524524ter-0a",
-                    "oasidgjasdfsdfasdfa0sdgadg09"
-                ],
+                "nearby": {
+                    "entries": [
+                        {
+                            "id": 0,
+                            "name": "Name",
+                            "image": "",
+                            "images": [
+                                ""
+                            ],
+                            "lat": 0,
+                            "lng": 0,
+                            "address": ""
+                        },
+                        {
+                            "id": 1,
+                            "name": "Name",
+                            "image": "",
+                            "images": [
+                                ""
+                            ],
+                            "lat": 0,
+                            "lng": 0,
+                            "address": ""
+                        }
+                    ],
+                    "pagination": {
+                        "resultsPerPage": 20,
+                        "nextPageToken": "nextToken"
+                    }
+                },
+                "related": {
+                    "entries": [
+                        {
+                            "id": 0,
+                            "name": "Name",
+                            "image": "",
+                            "images": [
+                                ""
+                            ],
+                            "lat": 0,
+                            "lng": 0,
+                            "address": ""
+                        },
+                        {
+                            "id": 1,
+                            "name": "Name",
+                            "image": "",
+                            "images": [
+                                ""
+                            ],
+                            "lat": 0,
+                            "lng": 0,
+                            "address": ""
+                        }
+                    ],
+                    "pagination": {
+                        "resultsPerPage": 20,
+                        "nextPageToken": "nextToken"
+                    }
+                },
                 "images": [
                     "https://upload.wikimedia.org/wikipedia/commons/0/0e/Pavilion_of_Ciudad_Quesada%2C_Costa_Rica_park.jpg",
                     "https://lh3.googleusercontent.com/proxy/ENtz38Rzl0Vyt-8ehmda7eWOW4bTjTDbntJLv6nChMKwJFr9dOHz9FFw-UveJkj0My5o9GWt4roilVmUh1bkpvYrkE8fsKucmKI2xzXcnxke3ffREm-dWnJXwwyuLrOdiRWA-5CLH9-bLEVDperRdlkQ3OOioKCu5rllRG1b6tz9cHh6VlGU_yZ5Ektw5xbefp77H_gZ2HdaOkOXMnKQTsoF4hXPndSdELHwHPcCjAB1VNcvctz61peXNPxP95ZYcVI3qRFRF7k",
@@ -1382,31 +1537,81 @@
             "example": {
                 "entries": [
                     {
-                        "id": "omfsokdm012",
+                        "id": 0,
                         "name": "Manuel Antonio, Parque Nacional",
                         "region": "Puntarenas",
                         "locality": "Manuel Antonio",
                         "country": "Costa Rica",
-                        "address-line1": "Address",
-                        "address-line2": "Address",
-                        "address-line3": "Address",
-                        "address-line4": "Address",
-                        "likes_count": 40,
+                        "addressLine1": "Address",
+                        "addressLine2": "Address",
+                        "addressLine3": "Address",
+                        "addressLine4": "Address",
+                        "likesCount": 40,
                         "starred": false,
                         "detail": "Manuel Antonio is the most popular National Park with Ticos. It offers several kilometers of very well maintained trails",
                         "image": "https://2.bp.blogspot.com/-he7gyDcaGdU/WFsfPqaiS9I/AAAAAAAAFzw/pqkGr5OCYikIA-Fsd_C2-FdoKTxVtx5zQCKgB/s1600/IMG_20161221_141133905.jpg",
                         "latitude": 0,
                         "longitude": 0,
-                        "nearby_ids": [
-                            "naoasodasd909",
-                            "ojnsdpgsd-0a",
-                            "oasidgja0sdgadg09"
-                        ],
-                        "related_ids": [
-                            "34tdgdsf45645",
-                            "qr524524ter-0a",
-                            "oasidgjasdfsdfasdfa0sdgadg09"
-                        ],
+                        "nearby": {
+                            "entries": [
+                                {
+                                    "id": 0,
+                                    "name": "Name",
+                                    "image": "",
+                                    "images": [
+                                        ""
+                                    ],
+                                    "lat": 0,
+                                    "lng": 0,
+                                    "address": ""
+                                },
+                                {
+                                    "id": 1,
+                                    "name": "Name",
+                                    "image": "",
+                                    "images": [
+                                        ""
+                                    ],
+                                    "lat": 0,
+                                    "lng": 0,
+                                    "address": ""
+                                }
+                            ],
+                            "pagination": {
+                                "resultsPerPage": 20,
+                                "nextPageToken": "nextToken"
+                            }
+                        },
+                        "related": {
+                            "entries": [
+                                {
+                                    "id": 0,
+                                    "name": "Name",
+                                    "image": "",
+                                    "images": [
+                                        ""
+                                    ],
+                                    "lat": 0,
+                                    "lng": 0,
+                                    "address": ""
+                                },
+                                {
+                                    "id": 1,
+                                    "name": "Name",
+                                    "image": "",
+                                    "images": [
+                                        ""
+                                    ],
+                                    "lat": 0,
+                                    "lng": 0,
+                                    "address": ""
+                                }
+                            ],
+                            "pagination": {
+                                "resultsPerPage": 20,
+                                "nextPageToken": "nextToken"
+                            }
+                        },
                         "images": [
                             "https://upload.wikimedia.org/wikipedia/commons/0/0e/Pavilion_of_Ciudad_Quesada%2C_Costa_Rica_park.jpg",
                             "https://lh3.googleusercontent.com/proxy/ENtz38Rzl0Vyt-8ehmda7eWOW4bTjTDbntJLv6nChMKwJFr9dOHz9FFw-UveJkj0My5o9GWt4roilVmUh1bkpvYrkE8fsKucmKI2xzXcnxke3ffREm-dWnJXwwyuLrOdiRWA-5CLH9-bLEVDperRdlkQ3OOioKCu5rllRG1b6tz9cHh6VlGU_yZ5Ektw5xbefp77H_gZ2HdaOkOXMnKQTsoF4hXPndSdELHwHPcCjAB1VNcvctz61peXNPxP95ZYcVI3qRFRF7k",
@@ -1556,7 +1761,9 @@
                 "name",
                 "authorId",
                 "description",
-                "status"
+                "status",
+                "id",
+                "durationSeconds"
             ],
             "type": "object",
             "properties": {
@@ -1576,8 +1783,11 @@
                     }
                 },
                 "experiences": {
-                    "$ref": "#/definitions/PaginateExperiencesPart",
-                    "description": "Trail experiences response"
+                    "description": "Trail experiences response",
+                    "type": "array",
+                    "items": {
+                        "$ref": "#/definitions/ExperiencePart"
+                    }
                 },
                 "description": {
                     "description": "Trail small description",
@@ -1594,9 +1804,18 @@
                         "DONE"
                     ],
                     "type": "string"
+                },
+                "id": {
+                    "description": "Trail identifier",
+                    "type": "integer"
+                },
+                "durationSeconds": {
+                    "description": "Trail duration in seconds",
+                    "type": "integer"
                 }
             },
             "example": {
+                "id": 0,
                 "name": "Trail Name",
                 "description": "",
                 "authorId": 0,
@@ -1605,7 +1824,8 @@
                 "status": "OPEN",
                 "experiences": {
 
-                }
+                },
+                "durationSeconds": 3600
             }
         },
         "FeaturedTrail": {
@@ -1640,6 +1860,10 @@
                         "DONE"
                     ],
                     "type": "string"
+                },
+                "description": {
+                    "description": "",
+                    "type": "string"
                 }
             },
             "example": {
@@ -1647,123 +1871,8 @@
                 ],
                 "name": "Name",
                 "id": 0,
-                "status": "OPEN"
-            }
-        },
-        "DiscoveryResponse": {
-            "title": "Root Type for DiscoveryResponse",
-            "description": "Discovery response object",
-            "type": "object",
-            "properties": {
-                "topicsExpirences": {
-                    "type": "array",
-                    "items": {
-                        "$ref": "#/definitions/PaginateDiscoveryTopicResponse"
-                    }
-                },
-                "featuredTrails": {
-                    "$ref": "#/definitions/PaginateFeaturedTrailsResponse"
-                }
-            },
-            "example": {
-                "topicsExperiences": [
-                    {
-                        "name": "Name",
-                        "description": "Description",
-                        "topicId": 0,
-                        "data": {
-                            "entries": [
-                                {
-                                    "id": 0,
-                                    "name": "Name",
-                                    "topImage": "",
-                                    "images": [
-                                        ""
-                                    ],
-                                    "lat": 0,
-                                    "lng": 0,
-                                    "address": ""
-                                },
-                                {
-                                    "id": 1,
-                                    "name": "Name",
-                                    "topImage": "",
-                                    "images": [
-                                        ""
-                                    ],
-                                    "lat": 0,
-                                    "lng": 0,
-                                    "address": ""
-                                }
-                            ],
-                            "pagination": {
-                                "resultsPerPage": 20,
-                                "nextPageToken": "nextToken"
-                            }
-                        }
-                    },
-                    {
-                        "name": "Name",
-                        "description": "Description",
-                        "topicId": 2,
-                        "data": {
-                            "entries": [
-                                {
-                                    "id": 0,
-                                    "name": "Name",
-                                    "topImage": "",
-                                    "images": [
-                                        ""
-                                    ],
-                                    "lat": 0,
-                                    "lng": 0,
-                                    "address": ""
-                                },
-                                {
-                                    "id": 1,
-                                    "name": "Name",
-                                    "topImage": "",
-                                    "images": [
-                                        ""
-                                    ],
-                                    "lat": 0,
-                                    "lng": 0,
-                                    "address": ""
-                                }
-                            ],
-                            "pagination": {
-                                "resultsPerPage": 20,
-                                "nextPageToken": "nextToken"
-                            }
-                        }
-                    }
-                ],
-                "featuredTrails": {
-                    "entries": [
-                        {
-                            "images": [
-                            ],
-                            "name": "Name",
-                            "id": 0
-                        },
-                        {
-                            "images": [
-                            ],
-                            "name": "Name",
-                            "id": 1
-                        },
-                        {
-                            "images": [
-                            ],
-                            "name": "Name",
-                            "id": 2
-                        }
-                    ],
-                    "pagination": {
-                        "resultsPerPage": 20,
-                        "nextPageToken": "nextToken"
-                    }
-                }
+                "status": "OPEN",
+                "description": ""
             }
         },
         "TopicExperiencesTrail": {
@@ -1960,13 +2069,13 @@
                     {
                         "id": 0,
                         "name": "Name",
-                        "topImage": "",
+                        "image": "",
                         "images": [
                             ""
                         ],
                         "lat": 0,
                         "lng": 0,
-                        "address": ""
+                        "displayAddress": ""
                     }
                 ],
                 "schedule": [
@@ -2001,7 +2110,7 @@
                         }
                     }
                 ],
-                "recommeded": {
+                "recommended": {
                     "tags": [
                         "sodas"
                     ],
@@ -2041,7 +2150,7 @@
                     "enum": [
                         "MULTIPLE_VALUES",
                         "SELECTED_VALUE",
-                        "INCREASE_VALUE",
+                        "INCREMENTAL_VALUE",
                         "RANGE_VALUE",
                         ""
                     ],
@@ -2092,7 +2201,7 @@
             "title": "Root Type for CreateUserTrailPayload",
             "description": "Create user trail body payload ",
             "required": [
-                "experience",
+                "experienceId",
                 "name",
                 "description"
             ],
@@ -2110,8 +2219,8 @@
                 "description": {
                     "type": "string"
                 },
-                "experience": {
-                    "$ref": "#/definitions/Experience"
+                "experienceId": {
+                    "type": "integer"
                 }
             },
             "example": {
@@ -2120,39 +2229,7 @@
                     "email@example.com"
                 ],
                 "description": "",
-                "experience": {
-                    "id": 0,
-                    "name": "Manuel Antonio, Parque Nacional",
-                    "region": "Puntarenas",
-                    "locality": "Manuel Antonio",
-                    "country": "Costa Rica",
-                    "address-line1": "Address",
-                    "address-line2": "Address",
-                    "address-line3": "Address",
-                    "address-line4": "Address",
-                    "likes_count": 40,
-                    "starred": false,
-                    "detail": "Manuel Antonio is the most popular National Park with Ticos. It offers several kilometers of very well maintained trails",
-                    "image": "https://2.bp.blogspot.com/-he7gyDcaGdU/WFsfPqaiS9I/AAAAAAAAFzw/pqkGr5OCYikIA-Fsd_C2-FdoKTxVtx5zQCKgB/s1600/IMG_20161221_141133905.jpg",
-                    "latitude": 0,
-                    "longitude": 0,
-                    "nearby_ids": [
-                        "naoasodasd909",
-                        "ojnsdpgsd-0a",
-                        "oasidgja0sdgadg09"
-                    ],
-                    "related_ids": [
-                        "34tdgdsf45645",
-                        "qr524524ter-0a",
-                        "oasidgjasdfsdfasdfa0sdgadg09"
-                    ],
-                    "images": [
-                        "https://upload.wikimedia.org/wikipedia/commons/0/0e/Pavilion_of_Ciudad_Quesada%2C_Costa_Rica_park.jpg",
-                        "https://lh3.googleusercontent.com/proxy/ENtz38Rzl0Vyt-8ehmda7eWOW4bTjTDbntJLv6nChMKwJFr9dOHz9FFw-UveJkj0My5o9GWt4roilVmUh1bkpvYrkE8fsKucmKI2xzXcnxke3ffREm-dWnJXwwyuLrOdiRWA-5CLH9-bLEVDperRdlkQ3OOioKCu5rllRG1b6tz9cHh6VlGU_yZ5Ektw5xbefp77H_gZ2HdaOkOXMnKQTsoF4hXPndSdELHwHPcCjAB1VNcvctz61peXNPxP95ZYcVI3qRFRF7k",
-                        "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTn9l50PRnci2bnQBLQqt3dgscfWf3QcKQ8bDdx6MZdF1m6w1j-&usqp=CAU",
-                        "https://elperiodicocr.com/wp-content/uploads/2019/07/Feria-del-Agricultor-INDER-1.jpeg"
-                    ]
-                }
+                "experienceId": 0
             }
         },
         "PaginateFeaturedTrailsResponse": {
@@ -2178,21 +2255,24 @@
                         ],
                         "name": "Name",
                         "id": 0,
-                        "status": "OPEN"
+                        "status": "OPEN",
+                        "description": ""
                     },
                     {
                         "images": [
                         ],
                         "name": "Name",
                         "id": 1,
-                        "status": "OPEN"
+                        "status": "OPEN",
+                        "description": ""
                     },
                     {
                         "images": [
                         ],
                         "name": "Name",
                         "id": 2,
-                        "status": "IN_PROGRESS"
+                        "status": "IN_PROGRESS",
+                        "description": ""
                     }
                 ],
                 "pagination": {
@@ -2286,9 +2366,6 @@
                 "name": {
                     "type": "string"
                 },
-                "topImage": {
-                    "type": "string"
-                },
                 "images": {
                     "type": "array",
                     "items": {
@@ -2303,20 +2380,23 @@
                     "format": "int32",
                     "type": "integer"
                 },
-                "address": {
+                "image": {
+                    "type": "string"
+                },
+                "displayAddress": {
                     "type": "string"
                 }
             },
             "example": {
                 "id": 0,
                 "name": "Name",
-                "topImage": "",
+                "image": "",
                 "images": [
                     ""
                 ],
                 "lat": 0,
                 "lng": 0,
-                "address": ""
+                "displayAddress": ""
             }
         },
         "PaginateExperiencesPart": {
@@ -2348,78 +2428,29 @@
                     {
                         "id": 0,
                         "name": "Name",
-                        "topImage": "",
+                        "image": "",
                         "images": [
                             ""
                         ],
                         "lat": 0,
                         "lng": 0,
-                        "address": ""
+                        "displayAddress": ""
                     },
                     {
                         "id": 1,
                         "name": "Name",
-                        "topImage": "",
+                        "image": "",
                         "images": [
                             ""
                         ],
                         "lat": 0,
                         "lng": 0,
-                        "address": ""
+                        "displayAddress": ""
                     }
                 ],
                 "pagination": {
                     "resultsPerPage": 20,
                     "nextPageToken": "nextToken"
-                }
-            }
-        },
-        "PaginateDiscoveryTopicResponse": {
-            "title": "Root Type for PaginateTopicsResponse",
-            "description": "Topics list response",
-            "type": "object",
-            "properties": {
-                "pagination": {
-                    "$ref": "#/definitions/Pagination",
-                    "description": "Pagination Data"
-                },
-                "data": {
-                    "$ref": "#/definitions/PaginateExperiencesPart"
-                }
-            },
-            "example": {
-                "name": "Name",
-                "description": "Description",
-                "topicId": 0,
-                "data": {
-                    "entries": [
-                        {
-                            "id": 0,
-                            "name": "Name",
-                            "topImage": "",
-                            "images": [
-                                ""
-                            ],
-                            "lat": 0,
-                            "lng": 0,
-                            "address": ""
-                        },
-                        {
-                            "id": 1,
-                            "name": "Name",
-                            "topImage": "",
-                            "images": [
-                                ""
-                            ],
-                            "lat": 0,
-                            "lng": 0,
-                            "address": ""
-                        }
-                    ],
-                    "pagination": {
-                        "resultsPerPage": 20,
-                        "nextPageToken": "nextToken"
-                    }
                 }
             }
         },
@@ -2554,24 +2585,24 @@
                         {
                             "id": 0,
                             "name": "Name",
-                            "topImage": "",
+                            "image": "",
                             "images": [
                                 ""
                             ],
                             "lat": 0,
                             "lng": 0,
-                            "address": ""
+                            "displayAddress": ""
                         },
                         {
                             "id": 1,
                             "name": "Name",
-                            "topImage": "",
+                            "image": "",
                             "images": [
                                 ""
                             ],
                             "lat": 0,
                             "lng": 0,
-                            "address": ""
+                            "displayAddress": ""
                         }
                     ],
                     "pagination": {
@@ -2688,6 +2719,174 @@
                 "pagination": {
                     "resultsPerPage": 20,
                     "nextPageToken": "nextToken"
+                }
+            }
+        },
+        "DiscoverResponse": {
+            "title": "Root Type for DiscoveryResponse",
+            "description": "Discovery response object",
+            "type": "object",
+            "properties": {
+                "topicsExpirences": {
+                    "type": "array",
+                    "items": {
+                        "$ref": "#/definitions/PaginateDiscoverTopicResponse"
+                    }
+                },
+                "featuredTrails": {
+                    "$ref": "#/definitions/PaginateFeaturedTrailsResponse"
+                }
+            },
+            "example": {
+                "topicsExperiences": [
+                    {
+                        "name": "Name",
+                        "description": "Description",
+                        "topicId": 0,
+                        "data": {
+                            "entries": [
+                                {
+                                    "id": 0,
+                                    "name": "Name",
+                                    "image": "",
+                                    "images": [
+                                        ""
+                                    ],
+                                    "lat": 0,
+                                    "lng": 0,
+                                    "displayAddress": ""
+                                },
+                                {
+                                    "id": 1,
+                                    "name": "Name",
+                                    "image": "",
+                                    "images": [
+                                        ""
+                                    ],
+                                    "lat": 0,
+                                    "lng": 0,
+                                    "displayAddress": ""
+                                }
+                            ],
+                            "pagination": {
+                                "resultsPerPage": 20,
+                                "nextPageToken": "nextToken"
+                            }
+                        }
+                    },
+                    {
+                        "name": "Name",
+                        "description": "Description",
+                        "topicId": 2,
+                        "data": {
+                            "entries": [
+                                {
+                                    "id": 0,
+                                    "name": "Name",
+                                    "image": "",
+                                    "images": [
+                                        ""
+                                    ],
+                                    "lat": 0,
+                                    "lng": 0,
+                                    "displayAddress": ""
+                                },
+                                {
+                                    "id": 1,
+                                    "name": "Name",
+                                    "image": "",
+                                    "images": [
+                                        ""
+                                    ],
+                                    "lat": 0,
+                                    "lng": 0,
+                                    "displayAddress": ""
+                                }
+                            ],
+                            "pagination": {
+                                "resultsPerPage": 20,
+                                "nextPageToken": "nextToken"
+                            }
+                        }
+                    }
+                ],
+                "featuredTrails": {
+                    "entries": [
+                        {
+                            "images": [
+                            ],
+                            "name": "Name",
+                            "id": 0,
+                            "description": ""
+                        },
+                        {
+                            "images": [
+                            ],
+                            "name": "Name",
+                            "id": 1,
+                            "description": ""
+                        },
+                        {
+                            "images": [
+                            ],
+                            "name": "Name",
+                            "id": 2,
+                            "description": ""
+                        }
+                    ],
+                    "pagination": {
+                        "resultsPerPage": 20,
+                        "nextPageToken": "nextToken"
+                    }
+                }
+            }
+        },
+        "PaginateDiscoverTopicResponse": {
+            "title": "Root Type for PaginateTopicsResponse",
+            "description": "Topics list response",
+            "type": "object",
+            "properties": {
+                "pagination": {
+                    "$ref": "#/definitions/Pagination",
+                    "description": "Pagination Data"
+                },
+                "data": {
+                    "$ref": "#/definitions/PaginateExperiencesPart"
+                }
+            },
+            "example": {
+                "name": "Name",
+                "description": "Description",
+                "topicId": 0,
+                "data": {
+                    "entries": [
+                        {
+                            "id": 0,
+                            "name": "Name",
+                            "image": "",
+                            "images": [
+                                ""
+                            ],
+                            "lat": 0,
+                            "lng": 0,
+                            "displayAddress": ""
+                        },
+                        {
+                            "id": 1,
+                            "name": "Name",
+                            "image": "",
+                            "images": [
+                                ""
+                            ],
+                            "lat": 0,
+                            "lng": 0,
+                            "displayAddress": ""
+                        }
+                    ],
+                    "pagination": {
+                        "resultsPerPage": 20,
+                        "nextPageToken": "nextToken"
+                    }
                 }
             }
         }
