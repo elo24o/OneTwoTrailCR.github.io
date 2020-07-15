@@ -1,4 +1,6 @@
-{
+{   
+	"id": 0,
+	"durationSeconds": 86400,
 	"name": "Zona Norte",
 	"authorId": 0,
 	"colaborators": [ "friend1@gmail.com", "friend2@gmail.com" ],
@@ -7,7 +9,7 @@
 			{
 				"id": 0,
 				"name": "La Amistad",
-				"img": "https://picsum.photos/id/10/200/300",
+				"image": "https://picsum.photos/id/10/200/300",
 				"images": [
 					"https://picsum.photos/id/110/200/300",
 					"https://picsum.photos/id/120/200/300",
@@ -15,12 +17,12 @@
 				],
 				"lat": 15,
 				"lng": 21,
-				"address": "Parque Nacional, La Amistad"
+				"displayAddress": "Parque Nacional, La Amistad"
 			},
 			{
 				"id": 1,
 				"name": "Corcovado",
-				"img": "https://picsum.photos/id/1016/200/300",
+				"image": "https://picsum.photos/id/1016/200/300",
 				"images": [
 					"https://picsum.photos/id/132/200/300",
 					"https://picsum.photos/id/142/200/300",
@@ -28,12 +30,12 @@
 				],
 				"lat": 20,
 				"lng": 16,
-				"address": "Parque Nacional, Corcovado"
+				"displayAddress": "Parque Nacional, Corcovado"
 			},
 			{
 				"id": 2,
 				"name": "Barra Honda",
-				"img": "https://picsum.photos/id/1018/200/300",
+				"image": "https://picsum.photos/id/1018/200/300",
 				"images": [
 					"https://picsum.photos/id/161/200/300",
 					"https://picsum.photos/id/162/200/300",
@@ -41,7 +43,7 @@
 				],
 				"lat": 10,
 				"lng": 14,
-				"address": "Parque Nacional, Barra Honda"
+				"displayAddress": "Parque Nacional, Barra Honda"
 			}
 		],
 		"pagination": {

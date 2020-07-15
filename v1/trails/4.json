@@ -1,4 +1,6 @@
 {
+	"id": 4,
+	"durationSeconds": 432000,
 	"name": "Pacífico Sur",
 	"authorId": 4,
 	"colaborators": [ "friend8@gmail.com", "friend9@ymail.com" ],
@@ -7,7 +9,7 @@
 			{
 				"id": 12,
 				"name": "Santa Rosa",
-				"img": "https://picsum.photos/id/1069/200/300",
+				"image": "https://picsum.photos/id/1069/200/300",
 				"images": [
 					"https://picsum.photos/id/122/200/300",
 					"https://picsum.photos/id/292/200/300",
@@ -15,12 +17,12 @@
 				],
 				"lat": 36,
 				"lng": 13,
-				"address": "Parque Nacional, Santa Rosa"
+				"displayAddress": "Parque Nacional, Santa Rosa"
 			},
 			{
 				"id": 13,
 				"name": "Tapantí",
-				"img": "https://picsum.photos/id/1080/200/300",
+				"image": "https://picsum.photos/id/1080/200/300",
 				"images": [
 					"https://picsum.photos/id/112/200/300",
 					"https://picsum.photos/id/1043/200/300",
@@ -28,12 +30,12 @@
 				],
 				"lat": 22,
 				"lng": 14,
-				"address": "Parque Nacional, Tapantí"
+				"displayAddress": "Parque Nacional, Tapantí"
 			},
 			{
 				"id": 14,
 				"name": "Volcán Arenal",
-				"img": "https://picsum.photos/id/110/200/300",
+				"image": "https://picsum.photos/id/110/200/300",
 				"images": [
 					"https://picsum.photos/id/17/200/300",
 					"https://picsum.photos/id/144/200/300",
@@ -41,7 +43,7 @@
 				],
 				"lat": 12,
 				"lng": 26,
-				"address": "Parque Nacional, Volcán Arenal"
+				"displayAddress": "Parque Nacional, Volcán Arenal"
 			}
 		],
 		"pagination": {

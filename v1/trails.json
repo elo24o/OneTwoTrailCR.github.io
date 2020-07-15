@@ -12,7 +12,9 @@
                 "id":
                 0,
                 "status":
-                "OPEN"
+                "OPEN",
+                "description":
+                "Conoce las mejores experiencias de la Zona norte"
             }, 
             {
                 "images": [
@@ -25,7 +27,9 @@
                 "id":
                 1,
                 "status":
-                "OPEN"
+                "OPEN",
+                "description":
+                "Conoce las mejores experiencias de la Zona norte"
             }, 
             {
                 "images": [
@@ -38,7 +42,9 @@
                 "id":
                 2,
                 "status":
-                "OPEN"
+                "OPEN",
+                "description":
+                "Conoce las mejores experiencias de la Zona norte"
             }, 
             {
                 "images": [
@@ -51,7 +57,9 @@
                 "id":
                 3,
                 "status":
-                "OPEN"
+                "OPEN",
+                "description":
+                "Conoce las mejores experiencias de la Zona norte"
             }, 
             {
                 "images": [
@@ -64,7 +72,9 @@
                 "id":
                 4,
                 "status":
-                "OPEN"
+                "OPEN",
+                "description":
+                "Conoce las mejores experiencias de la Zona norte"
             }
         ],
 		"pagination": {
