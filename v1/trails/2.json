@@ -17,7 +17,7 @@
 				],
 				"lat": 30,
 				"lng": 11,
-				"displayAddress": "Parque Nacional, Chirripó"
+				"displayAddress": "Acosta, San José"
 			},
 			{
 				"id": 7,
@@ -30,7 +30,7 @@
 				],
 				"lat": 20,
 				"lng": 11,
-				"displayAddress": "Parque Nacional, Isla del Coco"
+				"displayAddress": "Buenos Aires, Puntarenas"
 			},
 			{
 				"id": 8,
@@ -43,7 +43,7 @@
 				],
 				"lat": 10,
 				"lng": 24,
-				"displayAddress": "Parque Nacional, Marino Ballena"
+				"displayAddress": "Puntarenas, Puntarenas"
 			}
 		],
 		"pagination": {

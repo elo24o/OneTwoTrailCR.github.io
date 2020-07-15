@@ -17,7 +17,7 @@
 				],
 				"lat": 36,
 				"lng": 13,
-				"displayAddress": "Parque Nacional, Santa Rosa"
+				"displayAddress": "Golfito, Puntarenas"
 			},
 			{
 				"id": 13,
@@ -30,7 +30,7 @@
 				],
 				"lat": 22,
 				"lng": 14,
-				"displayAddress": "Parque Nacional, Tapantí"
+				"displayAddress": "Montes de Oro, Puntarenas"
 			},
 			{
 				"id": 14,
@@ -43,7 +43,7 @@
 				],
 				"lat": 12,
 				"lng": 26,
-				"displayAddress": "Parque Nacional, Volcán Arenal"
+				"displayAddress": "Osa, Puntarenas"
 			}
 		],
 		"pagination": {

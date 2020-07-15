@@ -17,7 +17,7 @@
 				],
 				"lat": 31,
 				"lng": 12,
-				"displayAddress": "Parque Nacional, Las Baulas"
+				"displayAddress": "Corredores, Puntarenas"
 			},
 			{
 				"id": 10,
@@ -30,7 +30,7 @@
 				],
 				"lat": 21,
 				"lng": 12,
-				"displayAddress": "Parque Nacional, Palo Verde"
+				"displayAddress": "Coto Brus, Puntarenas"
 			},
 			{
 				"id": 11,
@@ -43,7 +43,7 @@
 				],
 				"lat": 11,
 				"lng": 25,
-				"displayAddress": "Parque Nacional, Rincón de la vieja"
+				"displayAddress": "Esparza, Puntarenas"
 			}
 		],
 		"pagination": {

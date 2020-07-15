@@ -17,7 +17,7 @@
 				],
 				"lat": 115,
 				"lng": 121,
-				"displayAddress": "Parque Nacional, Braulio Carrillo"
+				"displayAddress": "Aserrí, San José"
 			},
 			{
 				"id": 4,
@@ -30,7 +30,7 @@
 				],
 				"lat": 120,
 				"lng": 116,
-				"displayAddress": "Parque Nacional, Cahuita"
+				"displayAddress": "Dota, San José"
 			},
 			{
 				"id": 5,
@@ -43,7 +43,7 @@
 				],
 				"lat": 110,
 				"lng": 114,
-				"displayAddress": "Parque Nacional, Carara"
+				"displayAddress": "Vázquez de Coronado, San José"
 			}
 		],
 		"pagination": {
