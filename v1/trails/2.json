@@ -15,8 +15,8 @@
 					"https://picsum.photos/id/190/200/300",
 					"https://picsum.photos/id/192/200/300"
 				],
-				"lat": 9.17,
-				"lng": -84.8,
+				"lat": 9.6529511,
+				"lng": -82.7574563,
 				"displayAddress": "Acosta, San José"
 			},
 			{
@@ -28,8 +28,8 @@
 					"https://picsum.photos/id/1041/200/300",
 					"https://picsum.photos/id/120/200/300"
 				],
-				"lat": 9.41,
-				"lng": -85.2,
+				"lat": 9.6387788,
+				"lng": -82.6972049,
 				"displayAddress": "Buenos Aires, Puntarenas"
 			},
 			{
@@ -41,8 +41,8 @@
 					"https://picsum.photos/id/142/200/300",
 					"https://picsum.photos/id/1050/200/300"
 				],
-				"lat": 9.87,
-				"lng": -84.1,
+				"lat": 9.6342284,
+				"lng": -82.660472,
 				"displayAddress": "Puntarenas, Puntarenas"
 			}
 		],

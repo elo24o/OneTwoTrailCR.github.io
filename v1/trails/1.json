@@ -15,8 +15,8 @@
 					"https://picsum.photos/id/189/200/300",
 					"https://picsum.photos/id/191/200/300"
 				],
-				"lat": 9.97,
-				"lng": -83.8,
+				"lat": 10.3157511,
+				"lng": -84.8330292,
 				"displayAddress": "Aserrí, San José"
 			},
 			{
@@ -28,8 +28,8 @@
 					"https://picsum.photos/id/202/200/300",
 					"https://picsum.photos/id/2016/200/300"
 				],
-				"lat": 9.83,
-				"lng": -83.10,
+				"lat": 10.3319427,
+				"lng": -84.8179016,
 				"displayAddress": "Dota, San José"
 			},
 			{
@@ -41,8 +41,8 @@
 					"https://picsum.photos/id/274/200/300",
 					"https://picsum.photos/id/278/200/300"
 				],
-				"lat": 10.23,
-				"lng": -83.58,
+				"lat": 10.3078388,
+				"lng": -84.8178437,
 				"displayAddress": "Vázquez de Coronado, San José"
 			}
 		],
