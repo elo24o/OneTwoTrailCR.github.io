@@ -15,8 +15,8 @@
 					"https://picsum.photos/id/120/200/300",
 					"https://picsum.photos/id/127/200/300"
 				],
-				"lat": 15,
-				"lng": 21,
+				"lat": 10.73,
+				"lng": -83.3,
 				"displayAddress": "San Carlos, Alajuela"
 			},
 			{
@@ -28,8 +28,8 @@
 					"https://picsum.photos/id/142/200/300",
 					"https://picsum.photos/id/15/200/300"
 				],
-				"lat": 20,
-				"lng": 16,
+				"lat": 10.53,
+				"lng": -84.5,
 				"displayAddress": "Pococí, Limón"
 			},
 			{
@@ -42,7 +42,7 @@
 					"https://picsum.photos/id/164/200/300"
 				],
 				"lat": 10,
-				"lng": 14,
+				"lng": -85,
 				"displayAddress": "Nicoya, Guanacaste"
 			}
 		],

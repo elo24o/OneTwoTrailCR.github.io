@@ -15,8 +15,8 @@
 					"https://picsum.photos/id/191/200/300",
 					"https://picsum.photos/id/193/200/300"
 				],
-				"lat": 31,
-				"lng": 12,
+				"lat": 9.17,
+				"lng": -83.7,
 				"displayAddress": "Corredores, Puntarenas"
 			},
 			{
@@ -28,8 +28,8 @@
 					"https://picsum.photos/id/1042/200/300",
 					"https://picsum.photos/id/121/200/300"
 				],
-				"lat": 21,
-				"lng": 12,
+				"lat": 9.47,
+				"lng": -83.5,
 				"displayAddress": "Coto Brus, Puntarenas"
 			},
 			{
@@ -41,8 +41,8 @@
 					"https://picsum.photos/id/143/200/300",
 					"https://picsum.photos/id/1051/200/300"
 				],
-				"lat": 11,
-				"lng": 25,
+				"lat": 9.87,
+				"lng": -83.3,
 				"displayAddress": "Esparza, Puntarenas"
 			}
 		],
