@@ -2,52 +2,82 @@
 	{
 		"entries": [
             {
-                "images": [
-                    "https://picsum.photos/id/10/200/300",
-                    "https://picsum.photos/id/1016/200/300",
-                    "https://picsum.photos/id/1018/200/300"
-                ],
-                "name":
-                "Zona Norte",
-                "id":
-                0,
-                "status":
-                "OPEN",
-                "description":
-                "Conoce las mejores experiencias de la Zona norte",
-		    "experiences": {
-          "id": 0,
-          "name": "La Amistad",
-          "region": "Norte",
-          "locality": "Heredia",
-          "country": "Costa Rica",
-          "address-line1": "Canton 1",
-          "address-line2": "Distrito 2",
-          "address-line3": "Barrio 3",
-          "address-line4": "Zona 4",
-          "likes_count": 10,
-          "starred": true,
-          "detail": "Detalles de la amistad",
-          "image": "https://picsum.photos/id/10/200/300",
-          "latitude": 9.8200500,
-          "longitude": -84.9351300,
-          "nearby_ids": [
-            1,
-            2,
-            3
-          ],
-          "related_ids": [
-            4,
-            5,
-            6
-          ],
-          "images": [
-            "https://picsum.photos/id/110/200/300",
-            "https://picsum.photos/id/120/200/300",
-            "https://picsum.photos/id/127/200/300"
-          ]
-        }
-            }, 
+        "images": [
+          "https://picsum.photos/id/1023/200/300",
+          "https://picsum.photos/id/1039/200/300",
+          "https://picsum.photos/id/1040/200/300"
+        ],
+        "name": "Vertiente del Caribe",
+        "id": 2,
+        "status": "OPEN",
+        "description": "Conoce las mejores experiencias de la Zona norte",
+        "experiences": [
+          {
+            "id": 0,
+            "name": "La Amistad",
+            "region": "Norte",
+            "locality": "Heredia",
+            "country": "Costa Rica",
+            "address-line1": "Canton 1",
+            "address-line2": "Distrito 2",
+            "address-line3": "Barrio 3",
+            "address-line4": "Zona 4",
+            "likes_count": 10,
+            "starred": true,
+            "detail": "Detalles de la amistad",
+            "image": "https://picsum.photos/id/10/200/300",
+            "latitude": 15,
+            "longitude": 21,
+            "nearby_ids": [
+              1,
+              2,
+              3
+            ],
+            "related_ids": [
+              4,
+              5,
+              6
+            ],
+            "images": [
+              "https://picsum.photos/id/110/200/300",
+              "https://picsum.photos/id/120/200/300",
+              "https://picsum.photos/id/127/200/300"
+            ]
+          },
+          {
+            "id": 0,
+            "name": "La Amistad",
+            "region": "Norte",
+            "locality": "Heredia",
+            "country": "Costa Rica",
+            "address-line1": "Canton 1",
+            "address-line2": "Distrito 2",
+            "address-line3": "Barrio 3",
+            "address-line4": "Zona 4",
+            "likes_count": 10,
+            "starred": true,
+            "detail": "Detalles de la amistad",
+            "image": "https://picsum.photos/id/10/200/300",
+            "latitude": 15,
+            "longitude": 21,
+            "nearby_ids": [
+              1,
+              2,
+              3
+            ],
+            "related_ids": [
+              4,
+              5,
+              6
+            ],
+            "images": [
+              "https://picsum.photos/id/110/200/300",
+              "https://picsum.photos/id/120/200/300",
+              "https://picsum.photos/id/127/200/300"
+            ]
+          }
+        ]
+      }
             {
                 "images": [
                     "https://picsum.photos/id/1019/200/300",
