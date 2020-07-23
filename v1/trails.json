@@ -1,7 +1,7 @@
 [
-	{
-		"entries": [
-            {
+  {
+    "entries": [
+      {
         "images": [
           "https://picsum.photos/id/1023/200/300",
           "https://picsum.photos/id/1039/200/300",
@@ -77,199 +77,183 @@
             ]
           }
         ]
-      }
-            {
-                "images": [
-                    "https://picsum.photos/id/1019/200/300",
-                    "https://picsum.photos/id/1022/200/300",
-                    "https://picsum.photos/id/1021/200/300"
-                ],
-                "name":
-                "Valle Central",
-                "id":
-                1,
-                "status":
-                "OPEN",
-                "description":
-                "Conoce las mejores experiencias de la Zona norte",
-		    "experiences": {
-          "id": 0,
-          "name": "La Amistad",
-          "region": "Norte",
-          "locality": "Heredia",
-          "country": "Costa Rica",
-          "address-line1": "Canton 1",
-          "address-line2": "Distrito 2",
-          "address-line3": "Barrio 3",
-          "address-line4": "Zona 4",
-          "likes_count": 10,
-          "starred": true,
-          "detail": "Detalles de la amistad",
-          "image": "https://picsum.photos/id/10/200/300",
-           "latitude": 9.8200500,
-          "longitude": -84.9351300,
-          "nearby_ids": [
-            1,
-            2,
-            3
-          ],
-          "related_ids": [
-            4,
-            5,
-            6
-          ],
-          "images": [
-            "https://picsum.photos/id/110/200/300",
-            "https://picsum.photos/id/120/200/300",
-            "https://picsum.photos/id/127/200/300"
-          ]
-        }
-            }, 
-            {
-                "images": [
-                    "https://picsum.photos/id/1023/200/300",
-                    "https://picsum.photos/id/1039/200/300",
-                    "https://picsum.photos/id/1040/200/300"
-                ],
-                "name":
-                "Vertiente del Caribe",
-                "id":
-                2,
-                "status":
-                "OPEN",
-                "description":
-                "Conoce las mejores experiencias de la Zona norte",
-		    "experiences": {
-          "id": 0,
-          "name": "La Amistad",
-          "region": "Norte",
-          "locality": "Heredia",
-          "country": "Costa Rica",
-          "address-line1": "Canton 1",
-          "address-line2": "Distrito 2",
-          "address-line3": "Barrio 3",
-          "address-line4": "Zona 4",
-          "likes_count": 10,
-          "starred": true,
-          "detail": "Detalles de la amistad",
-          "image": "https://picsum.photos/id/10/200/300",
-           "latitude": 9.8200500,
-          "longitude": -84.9351300,
-          "nearby_ids": [
-            1,
-            2,
-            3
-          ],
-          "related_ids": [
-            4,
-            5,
-            6
-          ],
-          "images": [
-            "https://picsum.photos/id/110/200/300",
-            "https://picsum.photos/id/120/200/300",
-            "https://picsum.photos/id/127/200/300"
-          ]
-        }
-            }, 
-            {
-                "images": [
-                    "https://picsum.photos/id/1041/200/300",
-                    "https://picsum.photos/id/1043/200/300",
-                    "https://picsum.photos/id/1050/200/300"
-                ],
-                "name":
-                "Pacífico Central",
-                "id":
-                3,
-                "status":
-                "OPEN",
-                "description":
-                "Conoce las mejores experiencias de la Zona norte",
-		    "experiences": {
-          "id": 0,
-          "name": "La Amistad",
-          "region": "Norte",
-          "locality": "Heredia",
-          "country": "Costa Rica",
-          "address-line1": "Canton 1",
-          "address-line2": "Distrito 2",
-          "address-line3": "Barrio 3",
-          "address-line4": "Zona 4",
-          "likes_count": 10,
-          "starred": true,
-          "detail": "Detalles de la amistad",
-          "image": "https://picsum.photos/id/10/200/300",
-          "latitude": 9.8200500,
-          "longitude": -84.9351300,
-          "nearby_ids": [
-            1,
-            2,
-            3
-          ],
-          "related_ids": [
-            4,
-            5,
-            6
-          ],
-          "images": [
-            "https://picsum.photos/id/110/200/300",
-            "https://picsum.photos/id/120/200/300",
-            "https://picsum.photos/id/127/200/300"
-          ]
-        }
-            }, 
-            {
-                "images": [
-                    "https://picsum.photos/id/1069/200/300",
-                    "https://picsum.photos/id/1080/200/300",
-                    "https://picsum.photos/id/110/200/300"
-                ],
-                "name":
-                "Pacífico Sur",
-                "id":
-                4,
-                "status":
-                "OPEN",
-                "description":
-                "Conoce las mejores experiencias de la Zona norte",
-		    "experiences": {
-          "id": 0,
-          "name": "La Amistad",
-          "region": "Norte",
-          "locality": "Heredia",
-          "country": "Costa Rica",
-          "address-line1": "Canton 1",
-          "address-line2": "Distrito 2",
-          "address-line3": "Barrio 3",
-          "address-line4": "Zona 4",
-          "likes_count": 10,
-          "starred": true,
-          "detail": "Detalles de la amistad",
-          "image": "https://picsum.photos/id/10/200/300",
-         "latitude": 9.8200500,
-          "longitude": -84.9351300,
-          "nearby_ids": [
-            1,
-            2,
-            3
-          ],
-          "related_ids": [
-            4,
-            5,
-            6
-          ],
-          "images": [
-            "https://picsum.photos/id/110/200/300",
-            "https://picsum.photos/id/120/200/300",
-            "https://picsum.photos/id/127/200/300"
-          ]
-        }
-            }
+      },
+      {
+        "images": [
+          "https://picsum.photos/id/1019/200/300",
+          "https://picsum.photos/id/1022/200/300",
+          "https://picsum.photos/id/1021/200/300"
         ],
-		"pagination": {
-			"resultsPerPage": 0,
-			"nextPageToken": "string"
-		}
-	}
+        "name": "Valle Central",
+        "id": 1,
+        "status": "OPEN",
+        "description": "Conoce las mejores experiencias de la Zona norte",
+        "experiences": {
+          "id": 0,
+          "name": "La Amistad",
+          "region": "Norte",
+          "locality": "Heredia",
+          "country": "Costa Rica",
+          "address-line1": "Canton 1",
+          "address-line2": "Distrito 2",
+          "address-line3": "Barrio 3",
+          "address-line4": "Zona 4",
+          "likes_count": 10,
+          "starred": true,
+          "detail": "Detalles de la amistad",
+          "image": "https://picsum.photos/id/10/200/300",
+          "latitude": 9.82005,
+          "longitude": -84.93513,
+          "nearby_ids": [
+            1,
+            2,
+            3
+          ],
+          "related_ids": [
+            4,
+            5,
+            6
+          ],
+          "images": [
+            "https://picsum.photos/id/110/200/300",
+            "https://picsum.photos/id/120/200/300",
+            "https://picsum.photos/id/127/200/300"
+          ]
+        }
+      },
+      {
+        "images": [
+          "https://picsum.photos/id/1023/200/300",
+          "https://picsum.photos/id/1039/200/300",
+          "https://picsum.photos/id/1040/200/300"
+        ],
+        "name": "Vertiente del Caribe",
+        "id": 2,
+        "status": "OPEN",
+        "description": "Conoce las mejores experiencias de la Zona norte",
+        "experiences": {
+          "id": 0,
+          "name": "La Amistad",
+          "region": "Norte",
+          "locality": "Heredia",
+          "country": "Costa Rica",
+          "address-line1": "Canton 1",
+          "address-line2": "Distrito 2",
+          "address-line3": "Barrio 3",
+          "address-line4": "Zona 4",
+          "likes_count": 10,
+          "starred": true,
+          "detail": "Detalles de la amistad",
+          "image": "https://picsum.photos/id/10/200/300",
+          "latitude": 9.82005,
+          "longitude": -84.93513,
+          "nearby_ids": [
+            1,
+            2,
+            3
+          ],
+          "related_ids": [
+            4,
+            5,
+            6
+          ],
+          "images": [
+            "https://picsum.photos/id/110/200/300",
+            "https://picsum.photos/id/120/200/300",
+            "https://picsum.photos/id/127/200/300"
+          ]
+        }
+      },
+      {
+        "images": [
+          "https://picsum.photos/id/1041/200/300",
+          "https://picsum.photos/id/1043/200/300",
+          "https://picsum.photos/id/1050/200/300"
+        ],
+        "name": "Pacífico Central",
+        "id": 3,
+        "status": "OPEN",
+        "description": "Conoce las mejores experiencias de la Zona norte",
+        "experiences": {
+          "id": 0,
+          "name": "La Amistad",
+          "region": "Norte",
+          "locality": "Heredia",
+          "country": "Costa Rica",
+          "address-line1": "Canton 1",
+          "address-line2": "Distrito 2",
+          "address-line3": "Barrio 3",
+          "address-line4": "Zona 4",
+          "likes_count": 10,
+          "starred": true,
+          "detail": "Detalles de la amistad",
+          "image": "https://picsum.photos/id/10/200/300",
+          "latitude": 9.82005,
+          "longitude": -84.93513,
+          "nearby_ids": [
+            1,
+            2,
+            3
+          ],
+          "related_ids": [
+            4,
+            5,
+            6
+          ],
+          "images": [
+            "https://picsum.photos/id/110/200/300",
+            "https://picsum.photos/id/120/200/300",
+            "https://picsum.photos/id/127/200/300"
+          ]
+        }
+      },
+      {
+        "images": [
+          "https://picsum.photos/id/1069/200/300",
+          "https://picsum.photos/id/1080/200/300",
+          "https://picsum.photos/id/110/200/300"
+        ],
+        "name": "Pacífico Sur",
+        "id": 4,
+        "status": "OPEN",
+        "description": "Conoce las mejores experiencias de la Zona norte",
+        "experiences": {
+          "id": 0,
+          "name": "La Amistad",
+          "region": "Norte",
+          "locality": "Heredia",
+          "country": "Costa Rica",
+          "address-line1": "Canton 1",
+          "address-line2": "Distrito 2",
+          "address-line3": "Barrio 3",
+          "address-line4": "Zona 4",
+          "likes_count": 10,
+          "starred": true,
+          "detail": "Detalles de la amistad",
+          "image": "https://picsum.photos/id/10/200/300",
+          "latitude": 9.82005,
+          "longitude": -84.93513,
+          "nearby_ids": [
+            1,
+            2,
+            3
+          ],
+          "related_ids": [
+            4,
+            5,
+            6
+          ],
+          "images": [
+            "https://picsum.photos/id/110/200/300",
+            "https://picsum.photos/id/120/200/300",
+            "https://picsum.photos/id/127/200/300"
+          ]
+        }
+      }
+    ],
+    "pagination": {
+      "resultsPerPage": 0,
+      "nextPageToken": "string"
+    }
+  }
 ]
