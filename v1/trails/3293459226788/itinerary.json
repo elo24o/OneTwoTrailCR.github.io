@@ -1,0 +1,274 @@
+{
+  "adult": 5,
+  "endTimeStamp": "1970-01-01T00:00:00.000Z",
+  "fixedPlaces": [
+    {
+      "id": 2353245,
+      "name": "Tortirica",
+      "images": [
+        "https://picsum.photos/200/300",
+        "https://picsum.photos/200/300",
+        "https://picsum.photos/200/300",
+        "https://picsum.photos/200/300",
+        "https://picsum.photos/200/300"
+      ],
+      "lat": -8.84794,
+      "lng": 121.5952,
+      "image": "https://picsum.photos/200/300",
+      "displayAddress": "SomeWhere in Australia"
+    }
+  ],
+  "kids": 2,
+  "recentlyDeleted": [
+    {
+      "id": 1234121,
+      "name": "In middle of the sea",
+      "images": [
+        "https://picsum.photos/200/300",
+        "https://picsum.photos/200/300",
+        "https://picsum.photos/200/300",
+        "https://picsum.photos/200/300",
+        "https://picsum.photos/200/300"
+      ],
+      "lat": 3.27393,
+      "lng": 177.00547,
+      "image": "https://picsum.photos/200/300",
+      "displayAddress": "SomeWhere in Australia"
+    },
+     {
+      "id": 1234121,
+      "name": "In middle of the sea",
+      "images": [
+        "https://picsum.photos/200/300",
+        "https://picsum.photos/200/300",
+        "https://picsum.photos/200/300",
+        "https://picsum.photos/200/300",
+        "https://picsum.photos/200/300"
+      ],
+      "lat": 3.27393,
+      "lng": 177.00547,
+      "image": "https://picsum.photos/200/300",
+      "displayAddress": "SomeWhere in Australia"
+    },
+     {
+      "id": 1234121,
+      "name": "In middle of the sea",
+      "images": [
+        "https://picsum.photos/200/300",
+        "https://picsum.photos/200/300",
+        "https://picsum.photos/200/300",
+        "https://picsum.photos/200/300",
+        "https://picsum.photos/200/300"
+      ],
+      "lat": 3.27393,
+      "lng": 177.00547,
+      "image": "https://picsum.photos/200/300",
+      "displayAddress": "SomeWhere in Australia"
+    },
+     {
+      "id": 1234121,
+      "name": "In middle of the sea",
+      "images": [
+        "https://picsum.photos/200/300",
+        "https://picsum.photos/200/300",
+        "https://picsum.photos/200/300",
+        "https://picsum.photos/200/300",
+        "https://picsum.photos/200/300"
+      ],
+      "lat": 3.27393,
+      "lng": 177.00547,
+      "image": "https://picsum.photos/200/300",
+      "displayAddress": "SomeWhere in Australia"
+    }
+  ],
+  "recommeded": {
+    "tags": [
+      "Australia",
+      "Sea",
+      "Fishing",
+      "Boat"
+    ],
+    "experiences": {
+      "entries": [
+        {
+          "id": 34523464756586,
+          "name": "Ciudad Quesada",
+          "region": "Huetar Norte",
+          "locality": "San Carlos",
+          "country": "Costa Rica",
+          "address-line1": "string",
+          "address-line2": "string",
+          "address-line3": "string",
+          "address-line4": "string",
+          "likes_count": 32,
+          "starred": false,
+          "detail": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nibh diam, auctor sit amet lobortis non, elementum et dolor. Nullam blandit fermentum congue. Nulla ornare ultricies nisi, at lobortis ante venenatis id. Sed dui magna, aliquam vitae feugiat vehicula, feugiat sed sapien. Morbi ante massa, dapibus vitae magna a, venenatis pretium urna. Quisque quis massa gravida, feugiat risus maximus, mollis justo. Sed sollicitudin hendrerit laoreet. Praesent eu nunc et ex facilisis ullamcorper. Nunc a maximus justo, eget sollicitudin ipsum. Sed posuere, quam in egestas sagittis, nibh enim dignissim turpis, a blandit tellus risus aliquet purus. Nulla libero neque, bibendum quis lacus et, imperdiet aliquam erat. Suspendisse blandit molestie purus consequat aliquam. Nulla eu odio neque. Curabitur consectetur velit orci.",
+          "image": "https://picsum.photos/200/300",
+          "latitude": 10.3238096,
+          "longitude": -84.4271393,
+          "nearby_ids": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "related_ids": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "images": [
+            "https://picsum.photos/200/300",
+            "https://picsum.photos/200/300",
+            "https://picsum.photos/200/300",
+            "https://picsum.photos/200/300",
+            "https://picsum.photos/200/300"
+          ]
+        },
+        {
+          "id": 57684351579,
+          "name": "Ciudad Quesada",
+          "region": "Huetar Norte",
+          "locality": "San Carlos",
+          "country": "Costa Rica",
+          "address-line1": "string",
+          "address-line2": "string",
+          "address-line3": "string",
+          "address-line4": "string",
+          "likes_count": 32,
+          "starred": false,
+          "detail": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nibh diam, auctor sit amet lobortis non, elementum et dolor. Nullam blandit fermentum congue. Nulla ornare ultricies nisi, at lobortis ante venenatis id. Sed dui magna, aliquam vitae feugiat vehicula, feugiat sed sapien. Morbi ante massa, dapibus vitae magna a, venenatis pretium urna. Quisque quis massa gravida, feugiat risus maximus, mollis justo. Sed sollicitudin hendrerit laoreet. Praesent eu nunc et ex facilisis ullamcorper. Nunc a maximus justo, eget sollicitudin ipsum. Sed posuere, quam in egestas sagittis, nibh enim dignissim turpis, a blandit tellus risus aliquet purus. Nulla libero neque, bibendum quis lacus et, imperdiet aliquam erat. Suspendisse blandit molestie purus consequat aliquam. Nulla eu odio neque. Curabitur consectetur velit orci.",
+          "image": "https://picsum.photos/200/300",
+          "latitude": 10.3238096,
+          "longitude": -84.4271393,
+          "nearby_ids": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "related_ids": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "images": [
+            "https://picsum.photos/200/300",
+            "https://picsum.photos/200/300",
+            "https://picsum.photos/200/300",
+            "https://picsum.photos/200/300",
+            "https://picsum.photos/200/300"
+          ]
+        },
+        {
+          "id": 4565674723,
+          "name": "Ciudad Quesada",
+          "region": "Huetar Norte",
+          "locality": "San Carlos",
+          "country": "Costa Rica",
+          "address-line1": "string",
+          "address-line2": "string",
+          "address-line3": "string",
+          "address-line4": "string",
+          "likes_count": 32,
+          "starred": false,
+          "detail": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nibh diam, auctor sit amet lobortis non, elementum et dolor. Nullam blandit fermentum congue. Nulla ornare ultricies nisi, at lobortis ante venenatis id. Sed dui magna, aliquam vitae feugiat vehicula, feugiat sed sapien. Morbi ante massa, dapibus vitae magna a, venenatis pretium urna. Quisque quis massa gravida, feugiat risus maximus, mollis justo. Sed sollicitudin hendrerit laoreet. Praesent eu nunc et ex facilisis ullamcorper. Nunc a maximus justo, eget sollicitudin ipsum. Sed posuere, quam in egestas sagittis, nibh enim dignissim turpis, a blandit tellus risus aliquet purus. Nulla libero neque, bibendum quis lacus et, imperdiet aliquam erat. Suspendisse blandit molestie purus consequat aliquam. Nulla eu odio neque. Curabitur consectetur velit orci.",
+          "image": "https://picsum.photos/200/300",
+          "latitude": 10.3238096,
+          "longitude": -84.4271393,
+          "nearby_ids": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "related_ids": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "images": [
+            "https://picsum.photos/200/300",
+            "https://picsum.photos/200/300",
+            "https://picsum.photos/200/300",
+            "https://picsum.photos/200/300",
+            "https://picsum.photos/200/300"
+          ]
+        },
+        {
+          "id": 1238654321265,
+          "name": "Ciudad Quesada",
+          "region": "Huetar Norte",
+          "locality": "San Carlos",
+          "country": "Costa Rica",
+          "address-line1": "string",
+          "address-line2": "string",
+          "address-line3": "string",
+          "address-line4": "string",
+          "likes_count": 32,
+          "starred": false,
+          "detail": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nibh diam, auctor sit amet lobortis non, elementum et dolor. Nullam blandit fermentum congue. Nulla ornare ultricies nisi, at lobortis ante venenatis id. Sed dui magna, aliquam vitae feugiat vehicula, feugiat sed sapien. Morbi ante massa, dapibus vitae magna a, venenatis pretium urna. Quisque quis massa gravida, feugiat risus maximus, mollis justo. Sed sollicitudin hendrerit laoreet. Praesent eu nunc et ex facilisis ullamcorper. Nunc a maximus justo, eget sollicitudin ipsum. Sed posuere, quam in egestas sagittis, nibh enim dignissim turpis, a blandit tellus risus aliquet purus. Nulla libero neque, bibendum quis lacus et, imperdiet aliquam erat. Suspendisse blandit molestie purus consequat aliquam. Nulla eu odio neque. Curabitur consectetur velit orci.",
+          "image": "https://picsum.photos/200/300",
+          "latitude": 10.3238096,
+          "longitude": -84.4271393,
+          "nearby_ids": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "related_ids": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "images": [
+            "https://picsum.photos/200/300",
+            "https://picsum.photos/200/300",
+            "https://picsum.photos/200/300",
+            "https://picsum.photos/200/300",
+            "https://picsum.photos/200/300"
+          ]
+        }
+      ],
+      "pagination": {
+        "resultsPerPage": 0,
+        "nextPageToken": "string"
+      }
+    }
+  },
+  "schedule": [
+    {
+      "datetime": "1970-01-01T00:00:00.000Z",
+      "duration": 0,
+      "status": "string",
+      "experience": {
+        "id": 0,
+        "name": "string",
+        "images": [
+          "string"
+        ],
+        "lat": 0,
+        "lng": 0,
+        "image": "string",
+        "displayAddress": "string"
+      },
+      "position": 0
+    }
+  ],
+  "startTimeStamp": "2022-01-01T00:00:00.000Z",
+  "teens": 3,
+  "trailId": 3293459226788
+}
