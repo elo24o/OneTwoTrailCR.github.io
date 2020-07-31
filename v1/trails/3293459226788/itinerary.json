@@ -292,8 +292,8 @@
           "https://picsum.photos/200/300",
           "https://picsum.photos/200/300"
         ],
-        "lat": 0,
-        "lng": 0,
+       "latitude": 10.3238096,
+          "longitude": -84.4271393,
         "image": "https://picsum.photos/200/300",
         "displayAddress": "string"
       },
@@ -311,8 +311,8 @@
           "https://picsum.photos/200/300",
           "https://picsum.photos/200/300"
         ],
-        "lat": 0,
-        "lng": 0,
+       "latitude": 10.3238096,
+          "longitude": -84.4271393,
         "image": "https://picsum.photos/200/300",
         "displayAddress": "string"
       },
