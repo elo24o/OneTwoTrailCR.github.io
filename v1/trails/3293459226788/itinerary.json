@@ -50,6 +50,68 @@
     }
   ],
   "kids": 2,
+  "recentlyAdded": [
+    {
+      "id": 9878342234876,
+      "name": "In middle of the sea",
+      "images": [
+        "https://picsum.photos/200/300",
+        "https://picsum.photos/200/300",
+        "https://picsum.photos/200/300",
+        "https://picsum.photos/200/300",
+        "https://picsum.photos/200/300"
+      ],
+      "lat": 3.27393,
+      "lng": 177.00547,
+      "image": "https://picsum.photos/200/300",
+      "displayAddress": "SomeWhere in Australia"
+    },
+     {
+      "id": 67321976952,
+      "name": "In middle of the sea",
+      "images": [
+        "https://picsum.photos/200/300",
+        "https://picsum.photos/200/300",
+        "https://picsum.photos/200/300",
+        "https://picsum.photos/200/300",
+        "https://picsum.photos/200/300"
+      ],
+      "lat": 3.27393,
+      "lng": 177.00547,
+      "image": "https://picsum.photos/200/300",
+      "displayAddress": "SomeWhere in Australia"
+    },
+     {
+      "id": 984445436756,
+      "name": "In middle of the sea",
+      "images": [
+        "https://picsum.photos/200/300",
+        "https://picsum.photos/200/300",
+        "https://picsum.photos/200/300",
+        "https://picsum.photos/200/300",
+        "https://picsum.photos/200/300"
+      ],
+      "lat": 3.27393,
+      "lng": 177.00547,
+      "image": "https://picsum.photos/200/300",
+      "displayAddress": "SomeWhere in Australia"
+    },
+     {
+      "id": 8568345487878,
+      "name": "In middle of the sea",
+      "images": [
+        "https://picsum.photos/200/300",
+        "https://picsum.photos/200/300",
+        "https://picsum.photos/200/300",
+        "https://picsum.photos/200/300",
+        "https://picsum.photos/200/300"
+      ],
+      "lat": 3.27393,
+      "lng": 177.00547,
+      "image": "https://picsum.photos/200/300",
+      "displayAddress": "SomeWhere in Australia"
+    }
+  ],
   "recentlyDeleted": [
     {
       "id": 36243142,
