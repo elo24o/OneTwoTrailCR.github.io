@@ -1,0 +1,22 @@
+{
+	"id": 0,
+	"name": "La Amistad",
+	"region": "Norte",
+	"locality": "Heredia",
+	"country": "Costa Rica",
+	"address-line1": "Canton 1",
+	"address-line2": "Distrito 2",
+	"address-line3": "Barrio 3",
+	"address-line4": "Zona 4",
+	"likes_count": 10,
+	"starred": true,
+	"detail": "Detalles de la amistad",
+	"image": "https://picsum.photos/id/10/200/300",
+	"latitude": 15,
+	"longitude": 21,
+	"nearby_ids": [ 1, 2, 3 ],
+	"related_ids": [ 4, 5, 6 ],
+	"images": [ "https://picsum.photos/id/110/200/300",
+        "https://picsum.photos/id/120/200/300",
+        "https://picsum.photos/id/127/200/300"]
+}
