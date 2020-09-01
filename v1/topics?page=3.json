@@ -1,32 +1,32 @@
 {
   "topics": [
     {
-      "id": "13",
+      "id": 13,
       "name": "Culture",
       "image": "https://onetwotrailcr.github.io/v1/img/img13.jpg"
     },
     {
-      "id": "14",
+      "id": 14,
       "name": "History",
       "image": "https://onetwotrailcr.github.io/v1/img/img14.jpg"
     },
     {
-      "id": "15",
+      "id": 15,
       "name": "Museums",
       "image": "https://onetwotrailcr.github.io/v1/img/img15.jpg"
     },
     {
-      "id": "16",
+      "id": 16,
       "name": "Landmarks",
       "image": "https://onetwotrailcr.github.io/v1/img/img3.jpg"
     },
     {
-      "id": "17",
+      "id": 17,
       "name": "Birdwatching",
       "image": "https://onetwotrailcr.github.io/v1/img/img4.jpg"
     },
     {
-      "id": "18",
+      "id": 18,
       "name": "Farming",
       "image": "https://onetwotrailcr.github.io/v1/img/img5.jpg"
     }

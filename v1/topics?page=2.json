@@ -1,32 +1,32 @@
 {
   "topics": [
     {
-      "id": "7",
+      "id": 7,
       "name": "Art",
       "image": "https://onetwotrailcr.github.io/v1/img/img7.jpg"
     },
     {
-      "id": "8",
+      "id": 8,
       "name": "Architecture",
       "image": "https://onetwotrailcr.github.io/v1/img/img8.jpg"
     },
     {
-      "id": "9",
+      "id": 9,
       "name": "Luxury",
       "image": "https://onetwotrailcr.github.io/v1/img/img9.jpg"
     },
     {
-      "id": "10",
+      "id": 10,
       "name": "Waterfalls",
       "image": "https://onetwotrailcr.github.io/v1/img/img10.jpg"
     },
     {
-      "id": "11",
+      "id": 11,
       "name": "X-Sports",
       "image": "https://onetwotrailcr.github.io/v1/img/img11.jpg"
     },
     {
-      "id": "12",
+      "id": 12,
       "name": "Technology",
       "image": "https://onetwotrailcr.github.io/v1/img/img12.jpg"
     }
