@@ -1,0 +1,17 @@
+{ 
+    "activitycontinuation": { 
+        "apps": [ "55X67B44B2.com.mistcore.dev.onetwotrail" ] 
+    }, 
+    "webcredentials": { 
+        "apps": [ "55X67B44B2.com.mistcore.dev.onetwotrail" ] 
+    }, 
+    "applinks": { 
+        "apps": [], 
+        "details": [ 
+            { 
+                "appID": "55X67B44B2.com.mistcore.dev.onetwotrail", 
+                "paths": [ "/", "/*" ] 
+            }
+        ] 
+    } 
+}
