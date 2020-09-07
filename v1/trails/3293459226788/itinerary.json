@@ -1,7 +1,8 @@
 {
-  "name":"Los Patitos",
+  "name": "Los Patitos",
   "adult": 5,
-  "endTimeStamp": "1970-01-01T00:00:00.000Z",
+  "endTimeStamp": "2022-01-01T00:00:00.000Z",
+  "startTimeStamp": "1970-01-01T00:00:00.000Z",
   "fixedPlaces": [
     {
       "id": 2353245,
@@ -17,7 +18,7 @@
       "lng": 121.5952,
       "image": "https://picsum.photos/200/300",
       "displayAddress": "SomeWhere in Australia"
-    }, 
+    },
     {
       "id": 746552121,
       "name": "Tortirica",
@@ -33,7 +34,7 @@
       "image": "https://picsum.photos/200/300",
       "displayAddress": "SomeWhere in Australia"
     },
-     {
+    {
       "id": 964313456,
       "name": "Tortirica",
       "images": [
@@ -66,7 +67,7 @@
       "image": "https://picsum.photos/200/300",
       "displayAddress": "SomeWhere in Australia"
     },
-     {
+    {
       "id": 67321976952,
       "name": "In middle of the sea",
       "images": [
@@ -81,7 +82,7 @@
       "image": "https://picsum.photos/200/300",
       "displayAddress": "SomeWhere in Australia"
     },
-     {
+    {
       "id": 984445436756,
       "name": "In middle of the sea",
       "images": [
@@ -96,7 +97,7 @@
       "image": "https://picsum.photos/200/300",
       "displayAddress": "SomeWhere in Australia"
     },
-     {
+    {
       "id": 8568345487878,
       "name": "In middle of the sea",
       "images": [
@@ -128,7 +129,7 @@
       "image": "https://picsum.photos/200/300",
       "displayAddress": "SomeWhere in Australia"
     },
-     {
+    {
       "id": 14575743234,
       "name": "In middle of the sea",
       "images": [
@@ -143,7 +144,7 @@
       "image": "https://picsum.photos/200/300",
       "displayAddress": "SomeWhere in Australia"
     },
-     {
+    {
       "id": 567546352567,
       "name": "In middle of the sea",
       "images": [
@@ -158,7 +159,7 @@
       "image": "https://picsum.photos/200/300",
       "displayAddress": "SomeWhere in Australia"
     },
-     {
+    {
       "id": 854342547576,
       "name": "In middle of the sea",
       "images": [
@@ -345,44 +346,182 @@
   "schedule": [
     {
       "datetime": "1970-01-01T00:00:00.000Z",
-      "duration": 0,
+      "duration": 4,
       "status": "string",
-      "experience": {
-        "id": 988532453,
-        "name": "string",
-        "images": [
-          "https://picsum.photos/200/300",
-          "https://picsum.photos/200/300",
-          "https://picsum.photos/200/300"
-        ],
-       "latitude": 10.3238096,
-          "longitude": -84.4271393,
-        "image": "https://picsum.photos/200/300",
-        "displayAddress": "string"
-      },
-      "position": 0
-    },
-     {
-      "datetime": "1970-01-01T00:00:00.000Z",
-      "duration": 0,
-      "status": "string",
-      "experience": {
-        "id": 9578642345876987,
-        "name": "string",
-        "images": [
-          "https://picsum.photos/200/300",
-          "https://picsum.photos/200/300",
-          "https://picsum.photos/200/300"
-        ],
-       "latitude": 10.3238096,
-          "longitude": -84.4271393,
-        "image": "https://picsum.photos/200/300",
-        "displayAddress": "string"
-      },
-      "position": 1
+      "daysInSchedule": {
+        "data": [
+          {
+            "day": "Day 1",
+            "dateTime": "2020-04-23T00:00:000Z",
+            "experiences": [
+              {
+                "id": 988532453,
+                "name": "string",
+                "images": [
+                  "https://picsum.photos/200/300",
+                  "https://picsum.photos/200/300",
+                  "https://picsum.photos/200/300"
+                ],
+                "latitude": 10.3238096,
+                "longitude": -84.4271393,
+                "image": "https://picsum.photos/200/300",
+                "displayAddress": "string",
+                "position": 0,
+                "timeToArriveToTheNextExperience": {
+                  "hour": 0,
+                  "minutes": 30
+                }
+              },
+              {
+                "id": 9578642345876988,
+                "name": "string",
+                "images": [
+                  "https://picsum.photos/200/300",
+                  "https://picsum.photos/200/300",
+                  "https://picsum.photos/200/300"
+                ],
+                "latitude": 10.3238096,
+                "longitude": -84.4271393,
+                "image": "https://picsum.photos/200/300",
+                "displayAddress": "string",
+                "position": 1,
+                "timeToArriveToTheNextExperience": {
+                  "hour": 1,
+                  "minutes": 15
+                }
+              }
+            ]
+          },
+          {
+            "day": "Day 2",
+            "dateTime": "2020-04-24T00:00:000Z",
+            "experiences": [
+              {
+                "id": 988532453,
+                "name": "string",
+                "images": [
+                  "https://picsum.photos/200/300",
+                  "https://picsum.photos/200/300",
+                  "https://picsum.photos/200/300"
+                ],
+                "latitude": 10.3238096,
+                "longitude": -84.4271393,
+                "image": "https://picsum.photos/200/300",
+                "displayAddress": "string",
+                "position": 0,
+                "timeToArriveToTheNextExperience": {
+                  "hour": 0,
+                  "minutes": 30
+                }
+              },
+              {
+                "id": 9578642345876988,
+                "name": "string",
+                "images": [
+                  "https://picsum.photos/200/300",
+                  "https://picsum.photos/200/300",
+                  "https://picsum.photos/200/300"
+                ],
+                "latitude": 10.3238096,
+                "longitude": -84.4271393,
+                "image": "https://picsum.photos/200/300",
+                "displayAddress": "string",
+                "position": 1,
+                "timeToArriveToTheNextExperience": {
+                  "hour": 1,
+                  "minutes": 15
+                }
+              }
+            ]
+          },
+          {
+            "day": "Day 3",
+            "dateTime": "2020-04-25T00:00:000Z",
+            "experiences": [
+              {
+                "id": 988532453,
+                "name": "string",
+                "images": [
+                  "https://picsum.photos/200/300",
+                  "https://picsum.photos/200/300",
+                  "https://picsum.photos/200/300"
+                ],
+                "latitude": 10.3238096,
+                "longitude": -84.4271393,
+                "image": "https://picsum.photos/200/300",
+                "displayAddress": "string",
+                "position": 0,
+                "timeToArriveToTheNextExperience": {
+                  "hour": 0,
+                  "minutes": 30
+                }
+              },
+              {
+                "id": 9578642345876988,
+                "name": "string",
+                "images": [
+                  "https://picsum.photos/200/300",
+                  "https://picsum.photos/200/300",
+                  "https://picsum.photos/200/300"
+                ],
+                "latitude": 10.3238096,
+                "longitude": -84.4271393,
+                "image": "https://picsum.photos/200/300",
+                "displayAddress": "string",
+                "position": 1,
+                "timeToArriveToTheNextExperience": {
+                  "hour": 1,
+                  "minutes": 15
+                }
+              }
+            ]
+          },
+          {
+            "day": "Day 4",
+            "dateTime": "2020-04-26T00:00:000Z",
+            "experiences": [
+              {
+                "id": 988532453,
+                "name": "string",
+                "images": [
+                  "https://picsum.photos/200/300",
+                  "https://picsum.photos/200/300",
+                  "https://picsum.photos/200/300"
+                ],
+                "latitude": 10.3238096,
+                "longitude": -84.4271393,
+                "image": "https://picsum.photos/200/300",
+                "displayAddress": "string",
+                "position": 0,
+                "timeToArriveToTheNextExperience": {
+                  "hour": 0,
+                  "minutes": 30
+                }
+              },
+              {
+                "id": 9578642345876988,
+                "name": "string",
+                "images": [
+                  "https://picsum.photos/200/300",
+                  "https://picsum.photos/200/300",
+                  "https://picsum.photos/200/300"
+                ],
+                "latitude": 10.3238096,
+                "longitude": -84.4271393,
+                "image": "https://picsum.photos/200/300",
+                "displayAddress": "string",
+                "position": 1,
+                "timeToArriveToTheNextExperience": {
+                  "hour": 1,
+                  "minutes": 15
+                }
+              }
+            ]
+          }
+        ]
+      }
     }
   ],
-  "startTimeStamp": "2022-01-01T00:00:00.000Z",
   "teens": 3,
   "trailId": 3293459226788
 }
