@@ -366,6 +366,7 @@
                 "longitude": -84.4271393,
                 "image": "https://picsum.photos/200/300",
                 "displayAddress": "string",
+                "startTimeStamp": "2020-04-23T00:00:000Z",
                 "position": 0,
                 "timeToArriveToTheNextExperience": {
                   "hour": 0,
@@ -384,6 +385,7 @@
                 "longitude": -84.4271393,
                 "image": "https://picsum.photos/200/300",
                 "displayAddress": "string",
+                "startTimeStamp": "2020-04-23T00:00:000Z",
                 "position": 1,
                 "timeToArriveToTheNextExperience": {
                   "hour": 1,
@@ -408,6 +410,7 @@
                 "longitude": -84.4271393,
                 "image": "https://picsum.photos/200/300",
                 "displayAddress": "string",
+                "startTimeStamp": "2020-04-23T00:00:000Z",
                 "position": 0,
                 "timeToArriveToTheNextExperience": {
                   "hour": 0,
@@ -426,6 +429,7 @@
                 "longitude": -84.4271393,
                 "image": "https://picsum.photos/200/300",
                 "displayAddress": "string",
+                "startTimeStamp": "2020-04-23T00:00:000Z",
                 "position": 1,
                 "timeToArriveToTheNextExperience": {
                   "hour": 1,
@@ -450,6 +454,7 @@
                 "longitude": -84.4271393,
                 "image": "https://picsum.photos/200/300",
                 "displayAddress": "string",
+                "startTimeStamp": "2020-04-23T00:00:000Z",
                 "position": 0,
                 "timeToArriveToTheNextExperience": {
                   "hour": 0,
@@ -468,6 +473,7 @@
                 "longitude": -84.4271393,
                 "image": "https://picsum.photos/200/300",
                 "displayAddress": "string",
+                "startTimeStamp": "2020-04-23T00:00:000Z",
                 "position": 1,
                 "timeToArriveToTheNextExperience": {
                   "hour": 1,
@@ -492,6 +498,7 @@
                 "longitude": -84.4271393,
                 "image": "https://picsum.photos/200/300",
                 "displayAddress": "string",
+                "startTimeStamp": "2020-04-23T00:00:000Z",
                 "position": 0,
                 "timeToArriveToTheNextExperience": {
                   "hour": 0,
@@ -510,6 +517,7 @@
                 "longitude": -84.4271393,
                 "image": "https://picsum.photos/200/300",
                 "displayAddress": "string",
+                "startTimeStamp": "2020-04-23T00:00:000Z",
                 "position": 1,
                 "timeToArriveToTheNextExperience": {
                   "hour": 1,
