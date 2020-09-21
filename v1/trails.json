@@ -8,8 +8,8 @@
           "https://picsum.photos/id/1039/200/300",
           "https://picsum.photos/id/1040/200/300"
         ],
-        "name": "Vertiente del Caribe",
-        "id": 2,
+        "name": "Test Trail ID 0",
+        "id": 0,
         "status": "OPEN",
         "description": "Conoce las mejores experiencias de la Zona norte"
       },
@@ -20,7 +20,7 @@
           "https://picsum.photos/id/1022/200/300",
           "https://picsum.photos/id/1021/200/300"
         ],
-        "name": "Valle Central",
+        "name": "Valle Central Trail ID 1",
         "id": 1,
         "status": "OPEN",
         "description": "Conoce las mejores experiencias de la Zona norte"
@@ -32,7 +32,7 @@
           "https://picsum.photos/id/1039/200/300",
           "https://picsum.photos/id/1040/200/300"
         ],
-        "name": "Vertiente del Caribe",
+        "name": "Vertiente del Caribe Trail ID 2",
         "id": 2,
         "status": "OPEN",
         "description": "Conoce las mejores experiencias de la Zona norte"
@@ -44,7 +44,7 @@
           "https://picsum.photos/id/1043/200/300",
           "https://picsum.photos/id/1050/200/300"
         ],
-        "name": "Pacífico Central",
+        "name": "Pacífico Central Trail ID 3",
         "id": 3,
         "status": "OPEN",
         "description": "Conoce las mejores experiencias de la Zona norte"
@@ -56,7 +56,7 @@
           "https://picsum.photos/id/1080/200/300",
           "https://picsum.photos/id/110/200/300"
         ],
-        "name": "Pacífico Sur",
+        "name": "Pacífico Sur Trail ID 4",
         "id": 4,
         "status": "OPEN",
         "description": "Conoce las mejores experiencias de la Zona norte"
