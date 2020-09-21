@@ -1,53 +1,54 @@
 {
-	"id": 2,
-	"durationSeconds": 259200,
-	"name": "Vertiente del Caribe",
-	"authorId": 2,
-	"colaborators": [ "friend5@gmail.com", "friend6@ymail.com" ],
-	"experiences": {
-		"entries": [
-			{
-				"id": 6,
-				"name": "Chirripó",
-				"image": "https://picsum.photos/id/123/200/300",
-				"images": [
-					"https://picsum.photos/id/19/200/300",
-					"https://picsum.photos/id/190/200/300",
-					"https://picsum.photos/id/192/200/300"
-				],
-				"lat": 9.6529511,
-				"lng": -82.7574563,
-				"displayAddress": "Acosta, San José"
-			},
-			{
-				"id": 7,
-				"name": "Isla del Coco",
-				"image": "https://picsum.photos/id/139/200/300",
-				"images": [
-					"https://picsum.photos/id/110/200/300",
-					"https://picsum.photos/id/1041/200/300",
-					"https://picsum.photos/id/120/200/300"
-				],
-				"lat": 9.6387788,
-				"lng": -82.6972049,
-				"displayAddress": "Buenos Aires, Puntarenas"
-			},
-			{
-				"id": 8,
-				"name": "Marino Ballena",
-				"image": "https://picsum.photos/id/140/200/300",
-				"images": [
-					"https://picsum.photos/id/15/200/300",
-					"https://picsum.photos/id/142/200/300",
-					"https://picsum.photos/id/1050/200/300"
-				],
-				"lat": 9.6342284,
-				"lng": -82.660472,
-				"displayAddress": "Puntarenas, Puntarenas"
-			}
-		],
-		"schedule": 
-    {
+  "authorId": 2,
+  "colaborators": [
+    "friend5@gmail.com",
+    "friend6@ymail.com"
+  ],
+  "description": "Costa caribe y provincia de Limón",
+  "durationSeconds": 259200,
+  "experiences": {
+    "entries": [
+      {
+        "id": 6,
+        "name": "Chirripó",
+        "image": "https://picsum.photos/id/123/200/300",
+        "images": [
+          "https://picsum.photos/id/19/200/300",
+          "https://picsum.photos/id/190/200/300",
+          "https://picsum.photos/id/192/200/300"
+        ],
+        "lat": 9.6529511,
+        "lng": -82.7574563,
+        "displayAddress": "Acosta, San José"
+      },
+      {
+        "id": 7,
+        "name": "Isla del Coco",
+        "image": "https://picsum.photos/id/139/200/300",
+        "images": [
+          "https://picsum.photos/id/110/200/300",
+          "https://picsum.photos/id/1041/200/300",
+          "https://picsum.photos/id/120/200/300"
+        ],
+        "lat": 9.6387788,
+        "lng": -82.6972049,
+        "displayAddress": "Buenos Aires, Puntarenas"
+      },
+      {
+        "id": 8,
+        "name": "Marino Ballena",
+        "image": "https://picsum.photos/id/140/200/300",
+        "images": [
+          "https://picsum.photos/id/15/200/300",
+          "https://picsum.photos/id/142/200/300",
+          "https://picsum.photos/id/1050/200/300"
+        ],
+        "lat": 9.6342284,
+        "lng": -82.660472,
+        "displayAddress": "Puntarenas, Puntarenas"
+      }
+    ],
+    "schedule": {
       "datetime": "1970-01-01T00:00:00.000Z",
       "duration": 4,
       "status": "string",
@@ -70,7 +71,7 @@
                 "image": "https://picsum.photos/200/300",
                 "displayAddress": "string",
                 "startTimeStamp": "2020-04-23T01:30:000Z",
-                "endTimeStamp" : "2020-04-23T02:30:000Z",
+                "endTimeStamp": "2020-04-23T02:30:000Z",
                 "position": 0,
                 "timeToArriveToTheNextExperience": {
                   "hour": 0,
@@ -233,11 +234,12 @@
         ]
       }
     },
-		"pagination": {
-			"resultsPerPage": 0,
-			"nextPageToken": "string"
-		}
-	},
-	"description": "Costa caribe y provincia de Limón",
-	"status": "OPEN"
+    "pagination": {
+      "resultsPerPage": 0,
+      "nextPageToken": "string"
+    }
+  },
+  "id": 2,
+  "name": "Vertiente del Caribe",
+  "status": "OPEN"
 }
