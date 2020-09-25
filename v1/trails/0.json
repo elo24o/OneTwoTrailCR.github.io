@@ -64,7 +64,7 @@
             "experiences": [
               {
                 "id": 988532453,
-                "name": "string",
+                "name": "Ciudad Quesada",
                 "images": [
                   "https://picsum.photos/200/300",
                   "https://picsum.photos/200/300",
@@ -84,7 +84,7 @@
               },
               {
                 "id": 9578642345876988,
-                "name": "string",
+                "name": "Tucano",
                 "images": [
                   "https://picsum.photos/200/300",
                   "https://picsum.photos/200/300",
@@ -96,6 +96,25 @@
                 "displayAddress": "string",
                 "startTimeStamp": "2020-04-23T00:00:000Z",
                 "position": 1,
+                "timeToArriveToTheNextExperience": {
+                  "hour": 1,
+                  "minutes": 15
+                }
+              }
+		    {
+                "id": 23423423,
+                "name": "Antojitos",
+                "images": [
+                  "https://picsum.photos/200/300",
+                  "https://picsum.photos/200/300",
+                  "https://picsum.photos/200/300"
+                ],
+                "latitude": 10.345708,
+                "longitude": -84.4044387,
+                "image": "https://picsum.photos/200/300",
+                "displayAddress": "string",
+                "startTimeStamp": "2020-04-23T00:00:000Z",
+                "position": 2,
                 "timeToArriveToTheNextExperience": {
                   "hour": 1,
                   "minutes": 15
